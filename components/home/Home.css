@@ -1,0 +1,101 @@
+.home {
+    padding: 0 25%;
+}
+
+.using__teams-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    margin: 8rem 0;
+}
+
+.using__teams-left {
+    letter-spacing: 0.1rem;
+    text-align: left;
+}
+
+.using__teams-left h1 {
+    color: #ca1a1f;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.using__teams-left-p {
+    margin-bottom: 1rem;
+}
+
+.using__teams-right .teamsimg {
+    width: 400px;
+    height: 400px;
+}
+
+.using__teams-left .cta {
+    color: white;
+    background-color: #ca1a1f;
+    border: none;
+    padding: 12px 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.using__teams-container a {
+    text-decoration: none;
+    background-color: #ca1a1f;
+    color: white;
+}
+
+/* MEDIA QUERIES LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1401px) {
+    .home {
+        padding: 0 15%;
+    }
+
+    .using__teams-left p {
+        font-size: 1rem;
+    }   
+}
+
+/* MEDIA QUERIES - LARGE LAPTOPS/DESKTOPS */
+
+@media only screen and (min-width: 1402px) and (max-width: 1800px) {
+    .home {
+        padding: 0 15%;
+    }
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .home {
+        padding: 0 5%;
+    }
+
+    .using__teams-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin: 4rem 0;
+    }
+
+    .using__teams-left p {
+        font-size: 1rem;
+    }
+
+    .using__teams-right .teamsimg {
+        width: 100%;
+    }
+
+    .using__teams-left .cta {
+        padding: 12px 20px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}

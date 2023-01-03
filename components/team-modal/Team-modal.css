@@ -1,0 +1,63 @@
+.team__modal {
+    width: clamp(50%, 700px, 90%);
+    height: min(50%, 450px);
+    margin: auto;
+    padding: 0 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red-gradient {
+    background-color: #ca1a1f;
+    opacity: 50%;
+}
+
+.teambtn {
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 1rem;
+}
+
+.modal__content, .modal__content h2, .modal__content p {
+    background-color: #ca1a1f;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.modalContainer {
+    background-color: #ca1a1f;
+    margin-top: 20px;
+}
+
+/* MEDIA QUERIES LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1800px) {
+    .modal__content, .modal__content p {
+        font-size: 1rem;
+    }
+
+    .team__modal {
+        height: min(75%, 500px)
+    }
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .team__modal {
+        width: 400px;
+        height: min(50%, 1000px);
+    }
+
+    .modal__content p {
+        font-size: 1rem;
+    }
+}

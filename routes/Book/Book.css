@@ -1,0 +1,11 @@
+.book__footer {
+  margin: auto 0;
+}
+
+/* MEDIA QUERIES - LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1401px) {
+  .book__content h1 {
+    font-size: 24px;
+  }
+}

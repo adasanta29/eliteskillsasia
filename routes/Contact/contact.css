@@ -1,0 +1,20 @@
+.contact h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 40px;
+    letter-spacing: 0.1rem;
+}
+
+.map__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.mapimg {
+    width: 700px;
+    height: 575px;
+}

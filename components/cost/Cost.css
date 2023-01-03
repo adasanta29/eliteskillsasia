@@ -1,0 +1,46 @@
+.cost {
+    padding: 0 20%;
+}
+
+.cost__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.cost__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.cost__class {
+    border: solid;
+    border-color: #ca1a1f;
+    padding: 2rem;
+}
+
+.cost__class h3 {
+    font-size: 24px;
+}
+
+.cost__class p {
+    opacity: 50%;
+    font-size: 16px;
+}
+
+.class__container {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost__class a {
+    color: white;
+    text-decoration: underline;
+}
+
+.cost__class a:hover {
+    color: pink;
+}
+

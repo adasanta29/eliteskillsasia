@@ -1,0 +1,10 @@
+.costs {
+    color: white;
+}
+
+.costs h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 2rem;
+}

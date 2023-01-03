@@ -1,0 +1,124 @@
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.bgimg {
+    background-image: url('../../assets/herobgimg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(6px) brightness(40%);
+    z-index: -100;
+}
+
+.hero__box {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.hero__box h1 {
+    color: white;
+    text-decoration: solid;
+    font-size: 80px;
+    background-color: transparent;
+    text-align: left;
+    letter-spacing: 0.1rem;
+}
+
+.hero__box p {
+    color: white;
+    background-color: transparent;
+    text-align: left;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.hero__box .red__tag {
+    color: #ca1a1f;
+    background-color: transparent;
+}
+
+.hero__box .cta__container {
+    display: flex;
+    background-color: transparent;
+    gap: 2rem;
+}
+
+.hero__box .cta {
+    color: white;
+    background-color: #ca1a1f;
+    border: none;
+    padding: 12px 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.hero__box a {
+    text-decoration: none;
+    background-color: #ca1a1f;
+    color: white;
+}
+
+
+/* MEDIA QUERIES LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1401px) {
+    .hero__box {
+        width: 50%;
+        bottom: 35%;
+    }
+
+    .hero__box h1 {
+        font-size: 60px;
+    }
+}
+
+/* MEDIA QUERIES LARGE LAPTOPS */
+
+@media only screen and (min-width: 1402px) and (max-width: 1800px) {
+    .hero__box {
+        bottom: 40%;
+    }
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .hero__box h1 {
+        font-size: 40px;
+    }
+
+    .hero__box p {
+        font-size: 1rem;
+    }
+
+    .hero__box {
+        width: 80%;
+        bottom: 40%;
+    }
+
+    .hero__box .cta {
+        color: white;
+        background-color: #ca1a1f;
+        border: none;
+        padding: 12px 20px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5%;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

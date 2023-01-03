@@ -1,0 +1,87 @@
+.homequotes {
+    padding: 0rem 30% 8rem;
+}
+
+.homequotes__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 4rem;
+}
+
+.homequotes__one, .homequotes__two {
+    display: flex;
+    gap: 3rem;
+}
+
+.quote__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto auto;
+}
+
+.quote__container p {
+    background-color: #353535;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 2rem;
+}
+
+.quote__container h3 {
+    text-align: left;
+}
+
+.quote__image {
+    width: 50%;
+}
+
+/* MEDIA QUERIES LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1401px) {
+    .homequotes {
+        padding: 0rem 15% 8rem;
+    }
+
+    .quote__container p {
+        font-size: 1rem;
+    }
+}
+
+/* MEDIA QUERIES - LARGE LAPTOPS/DESKTOPS */
+
+@media only screen and (min-width: 1402px) and (max-width: 1800px) {
+    .homequotes {
+        padding: 0rem 15% 8rem;
+    }
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .homequotes {
+        padding: 0 5% 8rem;
+    }
+
+    .homequotes__one, .homequotes__two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quote__container p {
+        font-size: 1rem;
+    }
+
+    .quote__container h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .quote__image {
+        display: flex;
+        width: 100%;
+    }
+}

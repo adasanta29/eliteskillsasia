@@ -1,0 +1,19 @@
+.properties {
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+    grid-template-columns: auto auto auto;
+    margin-top: 4rem;
+    gap: 6rem 6rem;
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .properties {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}

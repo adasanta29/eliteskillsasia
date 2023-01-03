@@ -1,0 +1,105 @@
+.logo img {
+    height: 150px;
+    width: 310px;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.navbar .navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__container ul {
+    color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.navbar__container ul li a, .navbar__container ul li a:visited {
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 600;
+    background-color: black;
+    margin: 1rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar__container ul li a:hover {
+    background-color: #ca1a1f;
+}
+
+.navbar__container ul li a:active {
+    background-color: #ca1a1f;
+}
+
+.toggle__button {
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    visibility: hidden;
+}
+
+/* MEDIA Queries - Medium (Laptops - Mac Dimensions) */
+@media only screen and (min-width: 980px) and (max-width: 1401px) {
+    ul li a {
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 1035px) {
+    .navbar__container ul {
+        position: absolute;
+        top: 46px;
+        right: 0;
+        width: 35%;
+        height: 100vh;
+        display: block;
+        background-color: #666666;
+        padding: 1rem 2.5rem;
+        transition: 0.3s;
+        z-index: 100;
+    }
+
+    .navbar__container ul li {
+        margin: 1rem 0;
+        background-color: #666666;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar__container ul li a {
+        text-align: left;
+    }
+
+    .navbar__container ul li a, .navbar__container ul li a:visited {
+        background-color: transparent;
+    }
+
+    .toggle__button {
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .hide {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+
+    .block {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+}
