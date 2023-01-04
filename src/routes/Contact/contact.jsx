@@ -2,7 +2,7 @@ import React from 'react';
 import '../Contact/contact.css';
 import Navbar from '../../components/navbar/Navbar';
 import ContactUs from '../../components/contactus/ContactUs';
-import Transport from '../../components/transport/Transport';
+// import Transport from '../../components/transport/Transport';
 import Footer from '../../components/footer/Footer';
 import mapimg from '../../assets/mapimg.jpg';
 

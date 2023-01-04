@@ -2,7 +2,7 @@ import React from 'react';
 import '../Book/Book.css';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 const Book = () => {
   return (

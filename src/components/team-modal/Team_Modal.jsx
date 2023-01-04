@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import '../team-modal/Team-modal.css';
-import { coaches } from '../../constants/data'
+import { coaches } from './../../constants/data'
 import { Backdrop } from "@mui/material";
 
 const dropIn = {
