@@ -49,13 +49,13 @@ li a {
 .timeSelector .selectedDataArea {
   margin-bottom: 24px;
   padding: 8px 0px;
-  background-color: purple;
+  background-color: #ca1a1f;
   text-align: center;
   border: 1px solid #ccc;
 }
 .allTimes {
   padding: 2% 4%;
-  background-color: purple;
+  background-color: #ca1a1f;
   height: 100%;
   border: 1px solid #ccc;
   overflow: scroll;
@@ -69,10 +69,10 @@ li a {
   border-radius: 20px;
   cursor: pointer;
   color: white;
-  background-color: purple;
+  background-color: #ca1a1f;
 }
 .timeContainer :hover {
-  background-color: blueviolet;
+  background-color: #e5343a;
   border: 1px;
   border-radius: 20px;
 }
@@ -86,7 +86,7 @@ li a {
   padding: 100px 10px 0px 10px;
   height: 403px;
   max-height: 403px;
-  background-color: purple;
+  background-color: #ca1a1f;
   border: 1px solid #ccc;
 }
 .parentDetails {
@@ -151,14 +151,14 @@ li a {
   font-weight: bold;
 }
 .fc table {
-  background-color: purple;
+  background-color: #ca1a1f;
 }
 .fc .fc-day-other .fc-daygrid-day-top {
   opacity: 0.8;
   color: red;
 }
 .fc .fc-toolbar.fc-header-toolbar {
-  background-color: purple;
+  background-color: #ca1a1f;
   padding: 8px;
   border: 1px solid #ccc;
 }
