@@ -122,3 +122,15 @@
         margin-top: 2rem;
     }
 }
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .hero__box h1 {
+        font-size: 62px;
+    }
+
+    .hero__box {
+        width: 80%;
+    }
+}
