@@ -1,0 +1,3 @@
+export const NUMBER_OF_BOOKINGS_GREEN = 2;
+export const NUMBER_OF_BOOKINGS_ORANGE = 3;
+export const NUMBER_OF_BOOKINGS_RED = 4;

@@ -1,0 +1,167 @@
+.nav {
+  width: 100%;
+  min-height: 40px;
+  margin-bottom: 20px;
+}
+/* li {
+  list-style: none;
+  float: left;
+  background-color: gray;
+  padding: 10px 15px;
+  margin-right: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+} */
+
+.container {
+  margin: 20px 80px;
+}
+.calendarWithTime {
+  width: 1000px;
+  height: 500px;
+  margin: 100px auto;
+  display: flex;
+}
+.visitorCalendar {
+  height: 100%;
+  width: 540px;
+  min-width: 540px;
+}
+.timeSelectorContainer {
+  height: 500px;
+  width: 30%;
+  text-align: center;
+  overflow: scroll;
+  margin-left: 10px;
+}
+.timeSelector {
+  height: 480px;
+  max-height: 480px;
+  min-height: 480px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.timeSelector .selectedDataArea {
+  margin-bottom: 24px;
+  padding: 8px 0px;
+  background-color: purple;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.allTimes {
+  padding: 2% 4%;
+  background-color: purple;
+  height: 100%;
+  border: 1px solid #ccc;
+  overflow: scroll;
+}
+.timeContainer {
+  float: left;
+  width: 30%;
+  margin: 6px 1%;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+}
+.timeContainer :hover {
+  background-color: blueviolet;
+  border: 1px;
+  border-radius: 20px;
+}
+.timeText {
+  padding: 12px 4px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.selectDateFirst {
+  padding: 100px 10px 0px 10px;
+  height: 403px;
+  max-height: 403px;
+  background-color: purple;
+  border: 1px solid #ccc;
+}
+.parentDetails {
+  min-height: 140px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.adminTable {
+  width: 990px;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+  margin: auto;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 800px;
+  width: 990px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+:root {
+  background-color: black;
+  color: white;
+}
+.fc .fc-toolbar-title {
+  font-size: 24px;
+}
+.fc .fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 4px 4px;
+  color: white;
+  font-weight: bold;
+}
+.fc table {
+  background-color: purple;
+}
+.fc .fc-day-other .fc-daygrid-day-top {
+  opacity: 0.8;
+  color: red;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  background-color: purple;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.fc .fc-scroller-liquid-absolute {
+  overflow: visible;
+}
