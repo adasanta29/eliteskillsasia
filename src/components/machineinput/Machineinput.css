@@ -17,3 +17,12 @@
         margin-bottom: 2rem;
     }
 }
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .properties {
+        display: flex;
+        flex-direction: column;
+    }
+}

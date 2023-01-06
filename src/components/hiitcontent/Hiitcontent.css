@@ -56,3 +56,33 @@
         gap: 1rem;
     }
 }
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .hiitcontent {
+        margin-top: 1rem;
+        padding: 0 5%;
+    }
+
+    .hiitcontent__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hiit__button {
+        margin-top: 1rem;
+    }
+}
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .hiitcontent {
+        padding: 0 5%;
+    }
+
+    .hiitcontent__container {
+        gap: 1rem;
+    }
+}

@@ -44,6 +44,7 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .data__container {
         flex-direction: column;
+        display: flex;
     }
 
     .data__image {
@@ -53,5 +54,24 @@
     .content {
         width: 90%;
         text-align: center;
+    }
+}
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .data__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .datahub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

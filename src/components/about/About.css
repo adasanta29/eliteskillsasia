@@ -92,3 +92,24 @@
     }
 }
 
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .about {
+        width: 70%;
+    }
+
+    .about__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__left {
+        padding: 0;
+    }
+
+    .about__right-img {
+        width: 70%;
+        padding-top: 4rem;
+    } 
+}

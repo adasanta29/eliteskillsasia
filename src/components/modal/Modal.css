@@ -83,3 +83,33 @@
     }
 }
 
+/* MEDIA QUERIES LAPTOPS */
+
+@media only screen and (min-width: 980px) and (max-width: 1800px) {
+    .modal {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .modal__image {
+        width: 50%;
+    }
+
+    .modal__description, .modal__technique {
+        font-size: 1rem;
+    }
+
+    .modal__close-wrapper {
+        right: -20px;
+        top: -30px;
+    }
+
+    .modal__row {
+        margin-bottom: 1rem;
+    }
+}

@@ -14,6 +14,7 @@
     width: 300px;
     border-radius: 50%;
     height: 300px;
+    background-color: black;
 }
 
 .team__members h3 {
@@ -41,6 +42,7 @@
 
 .save-button {
     cursor: pointer;
+    background-color: black;
 }
 
 /* MEDIA QUERIES LAPTOPS */
@@ -65,5 +67,19 @@
         display: flex;
         justify-content: center;
         margin-left: 4rem;
+    }
+}
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .team__member-group {
+        grid-template-columns: auto auto;
+        gap: 4rem;
+    }
+
+    .team__image {
+        width: 200px;
+        height: 200px;
     }
 }

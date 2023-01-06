@@ -54,10 +54,24 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .team__modal {
         width: 400px;
-        height: min(50%, 1000px);
+        height: min(70%, 1200px);
     }
 
     .modal__content p {
         font-size: 1rem;
+    }
+}
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .team__modal {
+        width: 70%;
+        height: min(60%, 1200px);
+    }
+
+    .modal__content p {
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
 }

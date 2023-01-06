@@ -85,3 +85,15 @@
         width: 100%;
     }
 }
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .homequotes {
+        padding: 0 5% 8rem;
+    }
+
+    .quote__container p {
+        font-size: 1rem;
+    }
+}

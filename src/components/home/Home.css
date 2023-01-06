@@ -99,3 +99,17 @@
         text-align: center;
     }
 }
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 979px) {
+    .using__teams-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .home {
+        padding: 0 10%;
+    }
+}
