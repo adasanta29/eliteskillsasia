@@ -43,6 +43,7 @@
 .save-button {
     cursor: pointer;
     background-color: black;
+    border: none;
 }
 
 /* MEDIA QUERIES LAPTOPS */
@@ -61,12 +62,12 @@
         flex-direction: column;
         gap: 2rem;
         justify-content: center;
+        width: 100%;
     }
 
-    .team__image {
+    .team__members {
         display: flex;
-        justify-content: center;
-        margin-left: 4rem;
+        flex-direction: column;
     }
 }
 
@@ -81,5 +82,10 @@
     .team__image {
         width: 200px;
         height: 200px;
+    }
+
+    .team__members {
+        display: flex;
+        flex-direction: column;
     }
 }

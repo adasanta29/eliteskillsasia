@@ -45,6 +45,7 @@
     .data__container {
         flex-direction: column;
         display: flex;
+        align-items: center;
     }
 
     .data__image {
@@ -55,18 +56,24 @@
         width: 90%;
         text-align: center;
     }
+
+    .content p {
+        font-size: 1rem;
+    }
 }
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
 
-@media only screen and (min-width: 481px) and (max-width: 979px) {
+@media only screen and (min-width: 480px) and (max-width: 980px) {
     .data__container {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .content {
         width: 80%;
+        text-align: center;
     }
 
     .datahub {
