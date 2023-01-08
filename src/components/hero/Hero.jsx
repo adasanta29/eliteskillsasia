@@ -14,7 +14,7 @@ const Hero = () => {
       <div className='bgimg'></div>
 
       <div className='hero__box'>
-        <h1>Now Officially Open</h1>
+        <h1>Now Officially Open - Hello</h1>
         <p>Welcome to the <b className='red__tag'>FIRST</b> modern football gym in <b className='red__tag'>Hong Kong</b>. ESA Hong Kong brings innovative training equipment used by top professionals to help develop your football technical skills to the next level.</p>
         
         <div className='cta__container'>
