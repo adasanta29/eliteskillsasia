@@ -23,7 +23,7 @@ const Team = () => {
   const content_2 = (
     <div className='modal__content'>
       <h2>Chris de Laiglesia - Technical Director</h2>
-      <p>Chris has been coaching in Hong Kong since 2015 working with players of all ages, ranging from 2 year olds learning the basics up to adults playing in the Hong Kong professional league. Having been introduced to the private coaching sector over the course of the lockdown in Hong Kong, he found that this particular area was not quite catering to the needs of the players and wanted to provide a more immersive experience. Chris has had the playing experience with pro team Kitchee (Hong Kong) and semi-pro team Ventura County (California, US). He found himself wanting to continue being involved in football and coached the Johns Hopkins University Club Soccer team as a volunteer in 2011-2012. With a FA level 1 completed back in 2004, he knew he needed to further his football education, so he enrolled with the IFA (Northern Irish Football Association) UEFA B course in 2016 - 2017 and as of June 2021 is currently on the FAW (Football Association of Wales) as he looks to continue through the UEFA coaching tiers.</p>
+      <p>Chris has been coaching in Hong Kong since 2015 working with players of all ages, from 2 year olds learning the basics up to adults in the Hong Kong professional league. Having been introduced to the private coaching sector over the course of the lockdown in Hong Kong, he found that this particular area was not catering to the needs of the players and wanted to provide a more immersive experience. Chris has had playing experience with pro team Kitchee (Hong Kong) and semi-pro team Ventura County (California, US). He found himself wanting to continue being involved in football and coached the Johns Hopkins University Club Soccer team as a volunteer in 2011-2012. With a FA level 1 completed in 2004, he knew he needed to further his football education, so he enrolled with the IFA (Northern Irish Football Association) UEFA B course in 2016 - 2017 and as of June 2021 is currently on the FAW (Football Association of Wales) as he looks to continue through the UEFA coaching tiers.</p>
     </div>
   );
 
@@ -37,7 +37,7 @@ const Team = () => {
   const content_4 = (
     <div className='modal__content'>
       <h2>Nikhil Narwani - Coach</h2>
-      <p>Nikhil is a professional Qualified FA Licensed Football Coach who currently is working as a free-lance coach focusing on 1 on 1 training to help individuals reach their highest potential. Coach Nik has been coaching for about 8 years now (part time & full time) and has also worked with and managed various different companies such as ESF (English Schools Foundation), RMFC (Real Madrid Foundation Clinic), APSS (Asia Pacific Soccer Schools) and BTS (Brasil Top Skills). Nik started loving the sport when he was 2/3 years old and started pursuing full time coaching around 2016 when he had gone through a life changing injury and tore his ACL & MCL. Coach Nik has played at the highest level around Hong Kong including representing the Hong Kong National Team U21’s while playing for U18 Sun Pegasus and Sun Pegasus Reserve team in 2015. He has also been part of the Kitchee U16’s in 2013. Coach Nik has gained a multitude of experience in the field of football having been coached at the highest level and looks to provide the same level of coaching to his own players.</p>
+      <p>Nikhil is a Qualified FA Licensed Football Coach, currently working as a free-lance coach focusing on 1 on 1 training to help individuals reach their highest potential. Coach Nik has been coaching for about 8 years now and has also worked with and managed various different companies such as ESF (English Schools Foundation), RMFC (Real Madrid Foundation Clinic), APSS (Asia Pacific Soccer Schools) and BTS (Brasil Top Skills). Nik started loving the sport when he was 2/3 years old and pursued full time coaching in 2016 when he had a life changing injury and tore his ACL & MCL. Coach Nik has played at the highest level around Hong Kong representing the Hong Kong National Team U21’s while playing for U18 Sun Pegasus and Sun Pegasus Reserve team in 2015. Coach Nik has gained vast experience in the field of football having been coached at a high level and looks to provide the same level of coaching to his own players.</p>
     </div>
   );
 
@@ -66,7 +66,7 @@ const Team = () => {
             onClick={() => (modalOpen_1 ? setModalOpen_1(false) : setModalOpen_1(true))} 
           >
             <img 
-              src='https://www.resizepixel.com/Image/qa433m0d9w/Preview/trafys.png?v=e0a2eda4-31e0-45cf-8429-5191552bf59c' 
+              src='https://www.linkpicture.com/q/trafysjpg.jpg' 
               className='team__image' 
               alt='Sam Trayford'
               />
@@ -88,7 +88,7 @@ const Team = () => {
             onClick={() => (modalOpen_2 ? setModalOpen_2(false) : setModalOpen_2(true))} 
           >
             <img 
-              src='https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/IMG_8279.jpg/:/rs=w:730,h:730,cg:true,m/cr=w:730,h:730' 
+              src='https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/ChrisCleanProfileWide.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:730,h:730,cg:true' 
               className='team__image' 
               alt='Chris de Laiglesia'
               />
@@ -111,8 +111,8 @@ const Team = () => {
             onClick={() => (modalOpen_3 ? setModalOpen_3(false) : setModalOpen_3(true))} 
           >
             <img 
-              src='https://www.resizepixel.com/Image/axzzq8tk6r/Preview/santi.png?v=3a250a5b-cdc8-4469-8e59-482cdb076414' 
-              className='team__image' 
+              src='image.png' 
+              className='https://www.linkpicture.com/q/santijpg.jpg' 
               alt='Santiago Fung'
               />
           </motion.button>
