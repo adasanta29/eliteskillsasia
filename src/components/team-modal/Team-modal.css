@@ -1,6 +1,6 @@
 .team__modal {
     width: clamp(50%, 700px, 90%);
-    height: min(50%, 450px);
+    height: auto;
     margin: auto;
     padding: 0 2rem;
     border-radius: 12px;
@@ -15,13 +15,15 @@
 }
 
 .teambtn {
-    color: white;
+    color: #ca1a1f;
     border: none;
     padding: 15px 32px;
     text-align: center;
     cursor: pointer;
     border-radius: 5%;
     font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 .modal__content, .modal__content h2, .modal__content p {
@@ -45,7 +47,7 @@
     }
 
     .team__modal {
-        height: min(75%, 500px)
+        height: auto;
     }
 }
 
@@ -54,11 +56,15 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .team__modal {
         width: 400px;
-        height: min(70%, 1200px);
+        height: auto;
     }
 
     .modal__content p {
         font-size: 1rem;
+    }
+
+    .teambtn {
+        margin-bottom: 1rem;
     }
 }
 
@@ -67,11 +73,15 @@
 @media only screen and (min-width: 481px) and (max-width: 979px) {
     .team__modal {
         width: 70%;
-        height: min(60%, 1200px);
+        height: auto;
     }
 
     .modal__content p {
         font-size: 1rem;
         line-height: 1.8rem;
+    }
+
+    .teambtn {
+        margin-bottom: 1rem;
     }
 }

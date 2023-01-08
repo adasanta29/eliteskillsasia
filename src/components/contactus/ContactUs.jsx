@@ -12,8 +12,8 @@ const ContactUs = () => {
 
         <div className='contact__info'>
           <h3>Feel free to get in touch by...</h3>
-          <p>Phone = +852 56624147</p>
-          <p>Email = info@eliteskillsarenaeastasia.com</p>
+          <p>Phone: +852 56624147</p>
+          <p>Email: info@esahongkong.com</p>
         </div>
 
         <div className='contact__address'>
