@@ -111,7 +111,7 @@ const Team = () => {
             onClick={() => (modalOpen_3 ? setModalOpen_3(false) : setModalOpen_3(true))} 
           >
             <img 
-              src='https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/SantiProfile.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1200,h:1600,cg:true' 
+              src='https://www.resizepixel.com/Image/axzzq8tk6r/Preview/santi.png?v=3a250a5b-cdc8-4469-8e59-482cdb076414' 
               className='team__image' 
               alt='Santiago Fung'
               />
