@@ -98,15 +98,23 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .hero__box h1 {
         font-size: 40px;
+        text-align: center;
     }
 
     .hero__box p {
         font-size: 1rem;
+        text-align: center;
     }
 
     .hero__box {
         width: 80%;
-        bottom: 40%;
+        bottom: 36%;
+        text-align: center;
+    }
+
+    .cta__container {
+        display: flex;
+        justify-content: center;
     }
 
     .hero__box .cta {
@@ -132,5 +140,15 @@
 
     .hero__box {
         width: 80%;
+        text-align: center;
+    }
+
+    .hero__box p, .hero__box h1 {
+        text-align: center;
+    }
+
+    .cta__container {
+        display: flex;
+        justify-content: center;
     }
 }
