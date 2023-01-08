@@ -66,7 +66,7 @@ const Team = () => {
             onClick={() => (modalOpen_1 ? setModalOpen_1(false) : setModalOpen_1(true))} 
           >
             <img 
-              src='https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/ESASam.jpg/:/cr=t:19.88%25,l:19.88%25,w:60.24%25,h:60.24%25/rs=w:1200,h:1600,cg:true,m' 
+              src='https://www.resizepixel.com/Image/qa433m0d9w/Preview/trafys.png?v=e0a2eda4-31e0-45cf-8429-5191552bf59c' 
               className='team__image' 
               alt='Sam Trayford'
               />
