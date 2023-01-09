@@ -74,7 +74,7 @@ function AdminPage({allTimes}) {
           <FullCalendar
             plugins={[dayGridPlugin, interactionPlugin]}
             initialView="dayGridMonth"
-            weekends={false}
+            weekends={true}
             events={myBooking}
             selectable={true}
             editable={true}

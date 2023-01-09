@@ -81,7 +81,7 @@ function VisitorsPage({allTimes}) {
           <FullCalendar
             plugins={[dayGridPlugin, interactionPlugin]}
             initialView="dayGridMonth"
-            weekends={false}
+            weekends={true}
             events={myBooking || []}
             selectable={true}
             editable={true}
@@ -99,7 +99,7 @@ function VisitorsPage({allTimes}) {
             headerToolbar={{
               left: "prev,next",
               center: "title",
-              right: "dayGridDay,dayGridWeek,dayGridMonth",
+              right: "dayGridWeek,dayGridMonth",
             }}
           />
         </div>
