@@ -92,7 +92,7 @@ function AdminPage({allTimes}) {
             headerToolbar={{
               left: "prev,next",
               center: "title",
-              right: "dayGridDay,dayGridWeek,dayGridMonth",
+              right: "dayGridMonth",
             }}
           />
         </div>

@@ -154,12 +154,12 @@ li a {
   background-color: #ca1a1f;
 }
 .fc .fc-day-other .fc-daygrid-day-top {
-  opacity: 0.8;
-  color: red;
+  opacity: 0.4;
+  color: white;
 }
 .fc .fc-toolbar.fc-header-toolbar {
   background-color: #ca1a1f;
-  padding: 8px;
+  padding: 12px;
   border: 1px solid #ccc;
 }
 .fc .fc-scroller-liquid-absolute {
@@ -194,7 +194,7 @@ li a {
   }
 
   .fc .fc-toolbar-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
