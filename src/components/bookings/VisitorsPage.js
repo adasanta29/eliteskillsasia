@@ -99,7 +99,7 @@ function VisitorsPage({allTimes}) {
             headerToolbar={{
               left: "prev,next",
               center: "title",
-              right: "dayGridWeek,dayGridMonth",
+              right: "dayGridMonth",
             }}
           />
         </div>
