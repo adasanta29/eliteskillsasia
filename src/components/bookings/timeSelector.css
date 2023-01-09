@@ -165,3 +165,52 @@ li a {
 .fc .fc-scroller-liquid-absolute {
   overflow: visible;
 }
+
+/* MEDIA QUERIES - SMALL DEVICES */ 
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .calendarWithTime {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: auto;
+  }
+
+  .timeSelectorContainer {
+    width: 80%;
+  }
+
+  .timeText {
+    font-size: 1rem;
+  }
+
+  .visitorCalendar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 16px;
+  }
+}
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+  .calendarWithTime {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .timeSelectorContainer {
+    width: 50%;
+  }
+}

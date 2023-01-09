@@ -26,7 +26,7 @@ const footer = () => {
                     <ul className='contact__list'>
                         <li>+852 5662 4147</li>
                         <li>11th Floor, Prince Industrial Building, 5 Sun Yip Street, Chai Wan</li>
-                        <li>info@eliteskillsarenaeastasia.com</li>
+                        <li>info@esahongkong.com</li>
                     </ul>
                 </div>
 

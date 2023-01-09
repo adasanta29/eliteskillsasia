@@ -112,7 +112,7 @@ const Team = () => {
           >
             <img 
               src='image.png' 
-              className='https://www.linkpicture.com/q/santijpg.jpg' 
+              className='https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/SantiProfile.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1200,h:1600,cg:true' 
               alt='Santiago Fung'
               />
           </motion.button>
