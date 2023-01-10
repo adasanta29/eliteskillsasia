@@ -93,9 +93,7 @@ function VisitorsPage({allTimes}) {
             select={(e) => {
               setSelectedDate(e.startStr);
             }}
-            selectLongPressDelay={0}
-            eventLongPressDelay={0}
-            longPressDelay={0}
+            longPressDelay={200}
             headerToolbar={{
               left: "prev,next",
               center: "title",

@@ -80,9 +80,7 @@ function AdminPage({allTimes}) {
             editable={true}
             themeSystem = "bootstrap5"
             eventContent={renderEventContent}
-            selectLongPressDelay={0}
-            eventLongPressDelay={0}
-            longPressDelay={0}
+            longPressDelay={200}
             // eventClick={(e) => {
             //   console.log(e);
             // }}
