@@ -20,6 +20,9 @@ const Modal = ({data, close}) => {
         <motion.img className='modal__image' alt='machine image' src={image} variants={imageVariants}/>
         <motion.div className='modal__info' variants={modalInfoVariants}>
             <motion.div className='modal__row' variants={modalRowVariants}>
+                <span className='modal__title'>{title}</span>
+            </motion.div>
+            <motion.div className='modal__row' variants={modalRowVariants}>
                 <span className='modal__description'>{description}</span>
             </motion.div>
             <motion.div className='modal__row' variants={modalRowVariants}>

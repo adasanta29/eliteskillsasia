@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import Team_Modal from '../team-modal/Team_Modal';
 import Santi from '../../assets/santijpg.jpg';
+import Trayfs from '../../assets/trayfs.jpg';
 
 const Team = () => {
 
@@ -67,7 +68,7 @@ const Team = () => {
             onClick={() => (modalOpen_1 ? setModalOpen_1(false) : setModalOpen_1(true))} 
           >
             <img 
-              src='https://www.linkpicture.com/q/trafysjpg.jpg' 
+              src={Trayfs}
               className='team__image' 
               alt='Sam Trayford'
               />

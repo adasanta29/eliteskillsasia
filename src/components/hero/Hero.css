@@ -48,8 +48,17 @@
 
 .hero__box .cta__container {
     display: flex;
+    flex-direction: column;
+}
+
+.hero__box .cta__container-top {
+    display: flex;
     background-color: transparent;
     gap: 2rem;
+}
+
+.hero__box .cta__container-bottom {
+    display: flex;
 }
 
 .hero__box .cta {
@@ -83,6 +92,14 @@
     .hero__box h1 {
         font-size: 60px;
     }
+
+    .hero__box .cta__container a{
+        font-size: 1rem;
+    }
+
+    .hero__box .cta {
+        padding: 12px 20px;
+    }
 }
 
 /* MEDIA QUERIES LARGE LAPTOPS */
@@ -115,6 +132,7 @@
     .cta__container {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .hero__box .cta {

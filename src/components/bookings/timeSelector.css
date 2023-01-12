@@ -36,7 +36,6 @@ li a {
   height: 500px;
   width: 40%;
   text-align: center;
-  overflow: scroll;
   margin-left: 10px;
 }
 .timeSelector {
@@ -56,7 +55,7 @@ li a {
 .allTimes {
   padding: 2% 4%;
   background-color: #ca1a1f;
-  height: 100%;
+  height: 85%;
   border: 1px solid #ccc;
   overflow: scroll;
 }
@@ -166,6 +165,11 @@ li a {
   overflow: visible;
 }
 
+.fc .fc-highlight {
+  background: gray;
+  opacity: 0.8;
+}
+
 /* MEDIA QUERIES - SMALL DEVICES */ 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -175,11 +179,12 @@ li a {
     height: auto;
     gap: 1rem;
     margin-top: 2rem;
-    width: auto;
+    width: 100%;
   }
 
   .timeSelectorContainer {
-    width: 80%;
+    width: 70%;
+    margin-right: 2.5%;
   }
 
   .timeText {
@@ -195,6 +200,18 @@ li a {
 
   .fc .fc-toolbar-title {
     font-size: 1rem;
+  }
+
+  .allTimes {
+    height: 50%;
+  }
+
+  .selectDateFirst {
+    height: 50%;
+  }
+
+  .timeText {
+    font-size: 0.8rem;
   }
 }
 

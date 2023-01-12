@@ -9,7 +9,7 @@ export const properties = [
     {
         id: 1,
         image: "https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/WhatsApp%20Image%202022-08-22%20at%206.38.05%20PM%20(1).jpeg/:/cr=t:20.36%25,l:2.83%25,w:94.34%25,h:62.89%25/rs=w:1200,h:600,cg:true,m",
-        title: "The Icon (6m, 16 Panels)",
+        title: "ICON (6m, 16 Panels)",
         description: "Designed to replicate match-realistic movements, players can fine-tune vital attributes like close control, passing accuracy, awareness, and much more. It’s also a great tool for rehabilitation after injury, facilitating controlled, low-impact training, as a stepping stone to full-contact.",
         info: "Technical Focus: Passing, Turning, Control"
     },
@@ -17,7 +17,7 @@ export const properties = [
     {
         id: 2,
         image: "https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/WhatsApp%20Image%202022-08-22%20at%206.38.06%20PM.jpeg/:/cr=t:2.83%25,l:2.95%25,w:94.1%25,h:94.34%25/rs=w:1200,h:902,cg:true,m",
-        title: "Fast Feet (2.5m ICON, 6 Panels)",
+        title: "ICON Fast Feet (6 panels)",
         description: "Designed to fit into tight spaces, the ICON Fast Feet is all about intensity, developing a players skills around close control, reaction time, and body manipulation.",
         info: "Technical Focus: Turning, Control"
     },
@@ -40,20 +40,21 @@ export const properties = [
 
     {
         id: 5,
-        image: "https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/IMG_20220630_142931.jpg/:/cr=t:17.25%25,l:0%25,w:100%25,h:66.67%25/rs=w:1200,h:600,cg:true",
-        title: "Gate Module",
-        description: "The gate simulates more realistic dribbling, and movement off-the-ball.  A beam breaker is fitted at waist height, which players must pass through with or without the ball, to satisfy the target.",
-        info: "Technical Focus: Dribbling, Turning"
-    },
-
-    {
-        id: 6,
         image: "https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/IMG_20220630_142843.jpg/:/cr=t:16.67%25,l:0%25,w:100%25,h:66.67%25/rs=w:1200,h:600,cg:true",
         title: "Wireless Panels",
         description: "Providing the same design used by the ICON line, but providing the benefit of customisability the wireless panels allow the distances between the panels to be modified and randomised.  Individuals will be able to work on dribbling, change of direction and awareness in an open space whilst applying the techniques developed in the more closed environments of the ICON machines. ",
         info: "Technical Focus: Passing, Dribbling, Control"
     },
+
+    {
+        id: 6,
+        image: "https://img1.wsimg.com/isteam/ip/b84d91b1-c2ae-42cc-8cbb-d0b7368de1b2/IMG_20220630_142931.jpg/:/cr=t:17.25%25,l:0%25,w:100%25,h:66.67%25/rs=w:1200,h:600,cg:true",
+        title: "Wireless Gate Module",
+        description: "The gate simulates more realistic dribbling, and movement off-the-ball.  A beam breaker is fitted at waist height, which players must pass through with or without the ball, to satisfy the target.",
+        info: "Technical Focus: Dribbling, Turning"
+    },
 ]
+
 
 export const coaches = [
     {

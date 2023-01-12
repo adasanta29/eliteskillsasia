@@ -18,13 +18,23 @@ const Hero = () => {
         <p>Welcome to the <b className='red__tag'>FIRST</b> modern football gym in <b className='red__tag'>Hong Kong</b>. ESA Hong Kong brings innovative training equipment used by top professionals to help develop your football technical skills to the next level.</p>
         
         <div className='cta__container'>
-          <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
-            <a href="/book">Book Session</a>
-          </motion.button>
 
-          <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
-            <a href="/machines">See Our Equipment</a>
-          </motion.button>
+          <div className='cta__container-top'>
+            <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
+              <a href="/book">Book Session</a>
+            </motion.button>
+
+            <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
+              <a href="/machines">See Our Equipment</a>
+            </motion.button>
+          </div>
+
+          <div className="cta__container-bottom">
+            <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
+              <a href="/contact">Birthday or Event Booking</a>
+            </motion.button>
+          </div>
+          
         </div>
 
       </div>

@@ -83,6 +83,7 @@ function VisitorsPage({allTimes}) {
             initialView="dayGridMonth"
             weekends={true}
             events={myBooking || []}
+            height="490px"
             selectable={true}
             editable={true}
             themeSystem = "bootstrap5"
@@ -93,7 +94,7 @@ function VisitorsPage({allTimes}) {
             select={(e) => {
               setSelectedDate(e.startStr);
             }}
-            longPressDelay={200}
+            longPressDelay={10}
             headerToolbar={{
               left: "prev,next",
               center: "title",

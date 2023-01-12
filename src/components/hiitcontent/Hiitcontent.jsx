@@ -19,7 +19,7 @@ const Hiitcontent = () => {
             </div>
 
             <div className='content__box'>
-                <h3>Every Tuesdays 7:30pm - 8:30pm</h3>
+                <h3>Tuesdays 7:30pm - 8:30pm</h3>
                 <p>Sign up for a trial today!</p>
             </div>
         </div>
