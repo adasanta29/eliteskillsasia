@@ -55,9 +55,11 @@ function AdminPage({allTimes}) {
           <FullCalendar
             plugins={[dayGridPlugin, interactionPlugin]}
             initialView="dayGridMonth"
-            weekends={false}
+            weekends={true}
             selectable={true}
             editable={true}
+            height="490px"
+            longPressDelay={10}
             themeSystem = "bootstrap5"
             eventContent={renderEventContent}
             // eventClick={(e) => {
@@ -69,7 +71,7 @@ function AdminPage({allTimes}) {
             headerToolbar={{
               left: "prev,next",
               center: "title",
-              right: "dayGridDay,dayGridWeek,dayGridMonth",
+              right: "dayGridMonth"
             }}
           />
         </div>

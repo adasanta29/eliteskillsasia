@@ -75,15 +75,28 @@
     }
 }
 
-/* MEDIA QUERIES - SMART PHONES */ 
+/* MEDIA QUERIES - MEDIUM DEVICES */
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 980px) {
     .listing {
         min-width: 200px;
-        max-width: 500px;
+        max-width: 300px;
     }
 
     .listing__title {
         font-size: 1rem;
+    }
+}
+
+/* MEDIA QUERIES - SMART PHONES */ 
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .listing {
+        min-width: 150px;
+        max-width: 200px;
+    }
+
+    .listing__title {
+        font-size: 0.8rem;
     }
 }

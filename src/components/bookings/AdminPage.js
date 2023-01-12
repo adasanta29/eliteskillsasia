@@ -75,6 +75,7 @@ function AdminPage({allTimes}) {
             plugins={[dayGridPlugin, interactionPlugin]}
             initialView="dayGridMonth"
             weekends={true}
+            height="490px"
             events={myBooking}
             selectable={true}
             editable={true}
