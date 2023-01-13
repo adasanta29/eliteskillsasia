@@ -7,3 +7,12 @@
     font-size: 40px;
     letter-spacing: 0.1rem;
 }
+
+.data h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    text-align: center;
+}

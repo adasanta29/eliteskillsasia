@@ -40,15 +40,14 @@
     font-size: 1.5rem;
 }
 
-.modal__close-wrapper {
-    all: unset;
-    position: absolute;
+.machine__btn {
+    color: #ca1a1f;
+    border: none;
+    padding: 6px 14px;
+    text-align: center;
     cursor: pointer;
-}
-
-.modal__close-icon {
-    width: 40px;
-    height: 40px;
+    border-radius: 5%;
+    font-size: 1rem;
 }
 
 /* MEDIA QUERIES - MOBILE DEVICES */
@@ -69,15 +68,8 @@
         width: 100%;
     }
 
-    .modal__close-wrapper {
-        right: -20px;
-        top: -30px;
-    }
-
-    .modal__close-icon {
-        width: 25px;
-        height: 25px;
-        color: #cacaca;
+    .machine__btn {
+        font-size: 0.8rem;
     }
 
     .modal__description, .modal__technique {

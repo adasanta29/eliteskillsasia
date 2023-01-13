@@ -28,8 +28,8 @@ const Modal = ({data, close}) => {
             <motion.div className='modal__row' variants={modalRowVariants}>
                 <span className='modal__technique'>{info}</span>
             </motion.div>
-            <motion.button className='modal__close-wrapper' onClick={close} whileHover={{scale: 1.2}}>
-                <IoIosCloseCircleOutline className='modal__close-icon'/>
+            <motion.button className='modal__row machine__btn' onClick={close} whileHover={{scale: 1.2}}>
+                Close
             </motion.button>
         </motion.div>
     </motion.div>
