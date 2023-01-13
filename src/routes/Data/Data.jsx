@@ -10,8 +10,9 @@ const Data = () => {
     <div className='data'>
         <Navbar/>
         <h1>DATA ANALYSIS</h1>
-        <Youtube/>
         <Datahub/>
+        <h3>Watch our tutorial video for help installing the DataHub</h3>
+        <Youtube/>
         <Footer/>
     </div>
   )

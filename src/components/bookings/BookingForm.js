@@ -263,7 +263,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                                 onChange={(e)=>{
                                     setAgreed(e.target.checked);
                                 }}
-                                Label={{ label: 'Agree'}}
+                                Label={{ label: 'I agree with the Terms and Conditions above'}}
                             />
 
                       <Box marginBottom={2} />
