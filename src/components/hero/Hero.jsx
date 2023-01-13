@@ -31,7 +31,7 @@ const Hero = () => {
 
           <div className="cta__container-bottom">
             <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
-              <a href="/contact">Birthday or Event Booking</a>
+              <a href="/contact">Birthday or Event Booking Inquiries</a>
             </motion.button>
           </div>
           

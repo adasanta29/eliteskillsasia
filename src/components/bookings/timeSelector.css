@@ -165,9 +165,21 @@ li a {
   overflow: visible;
 }
 
-.fc .fc-highlight {
+.fc .fc-daygrid-day-bg .fc-highlight {
   background: gray;
   opacity: 0.8;
+}
+
+.terms__link {
+  color: #1976d2;
+}
+
+.terms__link:hover {
+  color: #9c27b0;
+}
+
+.bookingForm__container {
+  width: 600px;
 }
 
 /* MEDIA QUERIES - SMALL DEVICES */ 
@@ -212,6 +224,12 @@ li a {
 
   .timeText {
     font-size: 0.8rem;
+  }
+
+  .bookingForm__container {
+    width: 300px;
+    display: flex;
+    margin-right: 15%;
   }
 }
 

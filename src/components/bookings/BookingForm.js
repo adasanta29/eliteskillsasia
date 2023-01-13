@@ -6,6 +6,7 @@ import { Field, Form, Formik } from "formik";
 import { Autocomplete, CheckboxWithLabel, TextField } from "formik-mui";
 import React, { useState } from 'react';
 import { db } from './firebaseConfig';
+import Esahk__tc from '../../assets/esahk__tc.pdf'
 
 function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTheUser}) {
     const [isNewUser, setIsNewUser] = useState(false);
@@ -43,7 +44,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
     }
     
   return (
-    <div style={{width:"600px"}}>
+    <div className="bookingForm__container">
         {
             !isNewUser && <Card variant="outlined">
             <CardContent>
@@ -251,16 +252,20 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         />
                         <Box marginBottom={2} />
 
+                            <a href={Esahk__tc} target='_blank' className="terms__link">See our Terms and Conditions</a>
 
-                        <Field
-                        component={CheckboxWithLabel}
-                        type="checkbox"
-                        checked={agreed}
-                        onChange={(e)=>{
-                            setAgreed(e.target.checked);
-                        }}
-                        Label={{ label: 'Agree to terms and conditions' }}
-                      />
+                            <Box marginBottom={0}/>
+
+                            <Field
+                                component={CheckboxWithLabel}
+                                type="checkbox"
+                                checked={agreed}
+                                onChange={(e)=>{
+                                    setAgreed(e.target.checked);
+                                }}
+                                Label={{ label: 'Agree'}}
+                            />
+
                       <Box marginBottom={2} />
                         <Button
                             type="submit"
