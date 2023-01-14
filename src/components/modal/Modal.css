@@ -61,7 +61,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 15px;
-        margin-top: 25%;
     }
 
     .modal__image {
@@ -81,7 +80,7 @@
     }
 
     .modal__title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
