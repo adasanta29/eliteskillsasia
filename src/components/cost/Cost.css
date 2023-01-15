@@ -44,3 +44,41 @@
     color: pink;
 }
 
+.cost__cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cost__cta-container .cta {
+    color: white;
+    background-color: #ca1a1f;
+    border: none;
+    padding: 12px 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.cost__cta-container .cta a {
+    color: white;
+}
+
+/* MEDIA QUERIES - MOBILE DEVICES */
+
+@media only screen and (min-width: 320px) and (max-width: 980px) {
+    .cost__cta-container .cta {
+        font-size: 0.8rem;
+        padding: 12px 20px;
+        margin-bottom: 2rem;
+    }
+
+    .cost__grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
