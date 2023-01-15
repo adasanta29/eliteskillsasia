@@ -8,7 +8,7 @@ const costs = () => {
   return (
     <div className='costs'>
         <Navbar/>
-        <h1>Costs</h1>
+        <h1>Classes</h1>
         <Cost/>
         <Footer/>
     </div>

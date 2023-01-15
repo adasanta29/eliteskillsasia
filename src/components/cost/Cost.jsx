@@ -1,5 +1,6 @@
 import React from 'react';
 import '../cost/Cost.css';
+import { motion } from 'framer-motion';
 
 const Cost = () => {
   return (
@@ -84,13 +85,19 @@ const Cost = () => {
                 <div className='cost__class'>
                     <h3>Birthday/Event Booking</h3>
                     <div className='class__details-one class__container'>
-                        <h4>Please contact us with details </h4>
+                        <h4>Please contact us with details</h4>
                         <h4>Varied by Request</h4>
                     </div>
                 </div>
 
             </div>
         </div>
+
+                <div className='cost__cta-container'>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
+                        <a href="/book">Book a Session</a>
+                    </motion.button>
+                </div>
     </div>
   )
 }
