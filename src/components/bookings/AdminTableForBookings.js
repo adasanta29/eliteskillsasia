@@ -10,6 +10,7 @@ function AdminTableForBookings({allBookingsOfSelectedDay}) {
                   <th scope="col">Customer Name</th>
                   <th scope="col">Customer Email</th>
                   <th scope="col">Time</th>
+                  <th scope='col'>Class</th>
                 </tr>
               </thead>
 
@@ -21,6 +22,7 @@ function AdminTableForBookings({allBookingsOfSelectedDay}) {
                       <td>{booking.name}</td>
                       <td>{booking.email}</td>
                       <td>{booking.time.text}</td>
+                      <td>{booking.class}</td>
                     </tr>
                   ))}
               </tbody>
