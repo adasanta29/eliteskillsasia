@@ -102,7 +102,27 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             fullWidth
                             required
                         />
-                        <Box marginBottom={2} />
+                        <Box marginBottom={3} />
+
+                        <Typography variant="p">Please select a class</Typography>
+
+                        <Box marginBottom={1}/>
+
+                        <Field
+                            name="class"
+                            type="class"
+                            label="Class"
+                            as="select"
+                            fullWidth
+                            required
+                        >
+                            <option value="private">Private</option>
+                            <option value="semi-private">Semi-Private</option>
+                            <option value="centre-booking">Centre Booking</option>
+                            <option value="birthday">Birthday</option>
+                        </Field>
+
+                        <Box marginBottom={3} />
                         
                         <Button
                             type="submit"
@@ -250,7 +270,28 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             required
                             fullWidth
                         />
-                        <Box marginBottom={2} />
+
+                        <Box marginBottom={3} />
+
+                        <Typography variant="p">Please select a class</Typography>
+
+                        <Box marginBottom={1}/>
+
+                        <Field
+                            name="class"
+                            type="class"
+                            label="Class"
+                            as="select"
+                            fullWidth
+                            required
+                        >
+                            <option value="private">Private</option>
+                            <option value="semi-private">Semi-Private</option>
+                            <option value="centre-booking">Centre Booking</option>
+                            <option value="birthday">Birthday</option>
+                        </Field>
+
+                        <Box marginBottom={3} />
 
                             <a href={Esahk__tc} target='_blank' className="terms__link">See our Terms and Conditions</a>
 
