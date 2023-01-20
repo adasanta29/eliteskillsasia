@@ -8,7 +8,7 @@ import bgimg from "../../assets/herobgimg.jpg";
 import { motion } from 'framer-motion';
 
 import { useTranslation } from 'react-i18next';
-import '../../locales/i18n';
+import '../../locales/i18n.js';
 
 const Hero = () => {
 
