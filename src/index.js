@@ -14,6 +14,8 @@ import Contact from './routes/Contact/contact';
 import Costs from './routes/Costs/costs';
 import AdminIndex from './routes/admin';
 
+import i18n from './locales/i18n';
+
 const allTimes = [
   // { text: '12:00 AM', value: 0, dbTime:'00:00:00' },
   // { text: '1:30 AM', value: 1.5 , dbTime:'01:30:00'},

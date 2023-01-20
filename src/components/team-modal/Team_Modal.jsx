@@ -3,6 +3,10 @@ import '../team-modal/Team-modal.css';
 import { coaches } from './../../constants/data'
 import { Backdrop } from "@mui/material";
 
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
+
+
 const dropIn = {
     hidden: {
         y: "-100vh"
@@ -26,6 +30,7 @@ const dropIn = {
 };
 
 const Team_Modal = ({ isOpen, handleClose, text }) => {
+    const { t } = useTranslation();
     return (
         <Backdrop sx={{ color: '#ca1a1f', zIndex: (theme) => theme.zIndex.drawer + 1}} open={isOpen} onClick={handleClose}>
             <motion.div
@@ -41,7 +46,7 @@ const Team_Modal = ({ isOpen, handleClose, text }) => {
                 </div>
 
                 <button onClick={handleClose} className="teambtn">
-                    Close
+                    {t("teamclosebtn")}
                 </button>
             </motion.div>
         </Backdrop>

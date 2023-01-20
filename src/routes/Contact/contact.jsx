@@ -6,13 +6,18 @@ import ContactUs from '../../components/contactus/ContactUs';
 import Footer from '../../components/footer/Footer';
 import mapimg from '../../assets/mapimg.jpg';
 
-const contact = () => {
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
+
+const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='contact'>
         <Navbar/>
-        <h1>CONTACT US</h1>
+        <h1>{t("contacth1")}</h1>
         <ContactUs/>
-        <h1>OUR LOCATION</h1>
+        <h1>{t("locationh1")}</h1>
         <div className='map__container'>
           <img src={mapimg} alt="" className='mapimg'/>
         </div>
@@ -21,4 +26,4 @@ const contact = () => {
   )
 }
 
-export default contact;
+export default Contact;
