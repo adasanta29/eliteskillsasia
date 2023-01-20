@@ -7,7 +7,7 @@ import Heroright from "../../components/heroright/Heroright";
 import bgimg from "../../assets/herobgimg.jpg";
 import { motion } from 'framer-motion';
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import '../../locales/i18n.js';
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className='hero__box'>
         <h1>{t("heroboxh1")}</h1>
-        <p>Welcome to the <b className='red__tag'>FIRST</b> modern football gym in <b className='red__tag'>Hong Kong</b>. ESA Hong Kong brings innovative training equipment used by top professionals to help develop your football technical skills to the next level.</p>
+        <p>{t("herowelcome")} <b className='red__tag'>{t("herofirst")}</b> {t("heromoderngym")} <b className='red__tag'>{t("herohk")}</b> {t("hero_rest")}</p>
         
         <div className='cta__container'>
 

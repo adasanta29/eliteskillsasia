@@ -26,6 +26,12 @@ export const TRANSLATIONS_EN = {
     heroctaequipment: "See Our Equipment",
     heroctaevent: "Birthday or Event Booking Inquiries",
 
+    herowelcome: "Welcome to the ",
+    herofirst: "FIRST",
+    heromoderngym: " modern football gym in ",
+    herohk: "Hong Kong. ",
+    hero_rest: "ESA Hong Kong brings innovative training equipment used by top professionals to help develop your football technical skills to the next level.",
+
     /* ----- HOME ----- */
 
     homelefth1: "We're leading a revolution in football training",
@@ -35,8 +41,9 @@ export const TRANSLATIONS_EN = {
 
     /* ----- HOME_QUOTES ----- */
 
-    /* issue with quotations */
+    quotesharryp: "I think (the ICON) is a great tool for everyone, from youth players right up to pros. There's everything there: the touches, the awareness, body position, opening your body up to receive balls, knowing where the next pass goes… It's a great way to help improve your football at any level.",
     quotesharryh3: "Harry Redknapp, FA Cup Winner (Manager)",
+    quoteslallanap: "The ICON's brilliant, especially for young players working on their technique. Nowadays footballs becoming more demanding technically. Players can really practice their receiving techniques, which is one of the best assets to improve on... I'd definitely recommend it to anyone.",
     quoteslallanah3: "(Player)",
 
     /* ----- MESSI ----- */
@@ -52,6 +59,26 @@ export const TRANSLATIONS_EN = {
     /* ----- MACHINES HEADER ----- */
 
     machineh1: "OUR MACHINES",
+
+    /* ----- MACHINES DATA ----- */
+
+    machine1description: "Designed to replicate match-realistic movements, players can fine-tune vital attributes like close control, passing accuracy, awareness, and much more. It’s also a great tool for rehabilitation after injury, facilitating controlled, low-impact training, as a stepping stone to full-contact.",
+    machine1info: "Technical Focus: Passing, Turning, Control",
+
+    machine2description: "Designed to fit into tight spaces, the ICON Fast Feet is all about intensity, developing a players skills around close control, reaction time, and body manipulation.",
+    machine2info: "Technical Focus: Turning, Control",
+
+    machine3description: "Built on the same principles as the full-size model, and using all the same technology, the Q is a 90 degree version of the ICON built for improving passing accuracy and control whilst focusing  in a single direction.",
+    machine3info: "Technical Focus: Passing, Control",
+
+    machine4description: "The Precision Wall helps players develop their attacking attributes, like shooting accuracy, first-touch, and teamwork. Working individually or in teams, players can access a range of drills designed to replicate the pressure of real match situations. The Precision Wall is great for practicing set pieces, and can even simulate the dive of a professional goalkeeper.",
+    machine4info: "Technical Focus: Passing, Shooting, Control",
+
+    machine5description: "Providing the same design used by the ICON line, but providing the benefit of customisability the wireless panels allow the distances between the panels to be modified and randomised.  Individuals will be able to work on dribbling, change of direction and awareness in an open space whilst applying the techniques developed in the more closed environments of the ICON machines.",
+    machine5info: "Technical Focus: Passing, Dribbling, Control",
+
+    machine6description: "The gate simulates more realistic dribbling, and movement off-the-ball.  A beam breaker is fitted at waist height, which players must pass through with or without the ball, to satisfy the target.",
+    machine6info: "Technical Focus: Dribbling, Turning",
 
     /* ---------------------------------------------------------------------------- */
 
@@ -210,5 +237,55 @@ export const TRANSLATIONS_EN = {
 
     existing_user_button: "Existing User?",
 
+    /* ---------------------------------------------------------------------------- */
 
+    /* ---------------------- COSTS ------------------------ */
+
+    /* ----- COSTS ROUTE ----- */
+
+    costsh1: "Classes",
+
+    /* ----- COSTS - PRIVATE ----- */
+
+    class_private_h3: "Private Coaching per Hour",
+    class_inclusive: "inclusive of ESA Data Hub",
+    class_private_one_type: "Single Session",
+    class_private_two_type: "Pack of 5 Sessions",
+    class_private_note: "2 Semi-Private Credits can be transferred into 1 Private Session Credit",
+
+    /* ----- COSTS - SEMI-PRIVATE ----- */
+
+    class_semiprivate_h3: "Semi-Private Coaching per 1.5 hours",
+    class_semiprivate_two_type: "Pack of 10 Sessions",
+    class_semiprivate_note1: "Up to 8 per session",
+    class_semiprivate_note2: "Maximum 4:1 ratio of coach:player",
+
+    /* ----- COSTS - FHIIT ----- */
+
+    class_fhiit_h3: "Football High Intensity Interval Training",
+    class_fhiit_info: "Tuesday Weekly from 7:30pm - 8:30pm",
+    class_fhiit_note: "For more information:",
+
+    /* ----- COSTS - RENTAL ----- */
+
+    class_rental_h3: "Centre Rental",
+    class_noninclusive: "Non-inclusive of Coaching and ESA Data Hub",
+    class_rental_type: "Hour Booking",
+    class_rental_note: "Up to 12 players in the Centre",
+
+    /* ----- COSTS - SUPPLEMENTAL COACHING ----- */
+
+    class_sup_h3: "Supplemental Coaching",
+    class_sup_subheading: "For Private Venue Bookings",
+    class_sup_type1: "Coach",
+    class_sup_type2: "Assistant Coach",
+    class_sup_note: "An Assistant Coach is recommended for more than 6 players",
+
+    /* ----- COSTS - BIRTHDAY/EVENT ----- */
+
+    class_event_h3: "Birthday/Event Booking",
+    class_event_contact: "Please contact us with details",
+    class_event_variedbyrequest: "Varied by Request",
+
+    cost_cta: "Book a Session",
 }
