@@ -8,6 +8,9 @@ import React, { useState } from 'react';
 import { db } from './firebaseConfig';
 import Esahk__tc from '../../assets/esahk__tc.pdf'
 
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
+
 function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTheUser}) {
     const [isNewUser, setIsNewUser] = useState(false);
     const [parentNeeded, setIsParentNeeded] = useState(false);
@@ -42,6 +45,8 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
 
         resetForm();
     }
+
+    const { t } = useTranslation();
     
   return (
     <div className="bookingForm__container">
@@ -49,7 +54,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
             !isNewUser && <Card variant="outlined">
             <CardContent>
                 <Typography variant="h5" component="div">
-                    Please enter booking details
+                    {t("please_enter_details_title")}
                 </Typography>
                 
                 <Box marginBottom={3} />
@@ -76,7 +81,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="text"
-                            label="Date"
+                            label="Time"
                             name="time"
                             value={selectedTime?selectedTime.text : ""}
                             fullWidth
@@ -86,7 +91,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="text"
-                            label="Name"
+                            label={t("name_label")}
                             name="name"
                             fullWidth
                             required
@@ -97,14 +102,14 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="email"
-                            label="Email"
+                            label={t("email_label")}
                             name="email"
                             fullWidth
                             required
                         />
                         <Box marginBottom={3} />
 
-                        <Typography variant="p">Please select a class</Typography>
+                        <Typography variant="p">{t("select_class")}</Typography>
 
                         <Box marginBottom={1}/>
 
@@ -116,10 +121,10 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             fullWidth
                             required
                         >
-                            <option value="private">Private</option>
-                            <option value="semi-private">Semi-Private</option>
-                            <option value="centre-booking">Centre Booking</option>
-                            <option value="birthday">Birthday</option>
+                            <option value="private">{t("class_private")}</option>
+                            <option value="semi-private">{t("class_semiprivate")}</option>
+                            <option value="centre-booking">{t("class_centre_booking")}</option>
+                            <option value="birthday">{t("class_birthday")}</option>
                         </Field>
 
                         <Box marginBottom={3} />
@@ -129,7 +134,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             variant="contained"
                             color="primary"
                         >
-                            Submit
+                            {t("submit_button")}
                         </Button>
 
                         <Button
@@ -141,7 +146,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                                 setFormVisible(false);
                             }}
                         >
-                            Cancel
+                            {t("cancel_button")}
                         </Button>
                     </Form>
                 </Formik>
@@ -149,7 +154,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
             <CardActions>
                 <Button size="small" onClick={()=>{
                     setIsNewUser(true);
-                }}>New User?</Button> 
+                }}>{t("new_user_button")}</Button> 
             </CardActions>
             <Box marginBottom={2} />
         </Card>
@@ -159,7 +164,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
             isNewUser && <Card variant="outlined">
             <CardContent>
                 <Typography variant="h5" component="div">
-                    Please enter booking details
+                    {t("please_enter_details_title")}
                 </Typography>
                 
                 <Box marginBottom={3} />
@@ -196,7 +201,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="text"
-                            label="Name"
+                            label={t("name_label")}
                             name="name"
                             fullWidth
                             required
@@ -218,7 +223,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             <MuiTextField
                                 {...params}
                                 name="yearOfBirth"
-                                label="Year of Birth"
+                                label={t("year_of_birth")}
                                 variant="outlined"
                                 required
                             />
@@ -226,12 +231,12 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         />
                         
                         <div className="parentDetails" style={parentNeeded?{display:"block"}:{display:"none"}}>
-                            <div>Parent/Guardian Details</div>
+                            <div>{t("parent_details_title")}</div>
                             <Box marginBottom={2} />
                             <Field
                                 component={TextField}
                                 type="text"
-                                label="Parent/Guardian Name"
+                                label={t("parent_name_label")}
                                 name="parentName"
                                 fullWidth
                                 required={parentNeeded}
@@ -241,7 +246,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             <Field
                                 component={TextField}
                                 type="email"
-                                label="Parent/Guardian Email"
+                                label={t("parent_email_label")}
                                 name="parentEmail"
                                 fullWidth
                                 required={parentNeeded}
@@ -254,7 +259,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="text"
-                            label="Phone"
+                            label={t("phone_label")}
                             name="phone"
                             required
                             fullWidth
@@ -265,7 +270,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         <Field
                             component={TextField}
                             type="email"
-                            label="Email"
+                            label={t("email_label")}
                             name="email"
                             required
                             fullWidth
@@ -273,7 +278,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
 
                         <Box marginBottom={3} />
 
-                        <Typography variant="p">Please select a class</Typography>
+                        <Typography variant="p">{t("select_class")}</Typography>
 
                         <Box marginBottom={1}/>
 
@@ -285,15 +290,15 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             fullWidth
                             required
                         >
-                            <option value="private">Private</option>
-                            <option value="semi-private">Semi-Private</option>
-                            <option value="centre-booking">Centre Booking</option>
-                            <option value="birthday">Birthday</option>
+                            <option value="private">{t("class_private")}</option>
+                            <option value="semi-private">{t("class_semiprivate")}</option>
+                            <option value="centre-booking">{t("class_centre_booking")}</option>
+                            <option value="birthday">{t("class_birthday")}</option>
                         </Field>
 
                         <Box marginBottom={3} />
 
-                            <a href={Esahk__tc} target='_blank' className="terms__link">See our Terms and Conditions</a>
+                            <a href={Esahk__tc} target='_blank' className="terms__link">{t("see_terms")}</a>
 
                             <Box marginBottom={0}/>
 
@@ -314,7 +319,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                             color="primary"
                             disabled={!agreed}
                         >
-                            Submit
+                            {t("submit_button")}
                         </Button>
 
                         <Button
@@ -326,7 +331,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                                 setFormVisible(false);
                             }}
                         >
-                            Cancel
+                            {t("cancel_button")}
                         </Button>
                     </Form>
                 </Formik>
@@ -334,7 +339,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
             <CardActions>
                 <Button size="small" onClick={()=>{
                     setIsNewUser(false);
-                }}>Existing User?</Button> 
+                }}>{t("existing_user_button")}</Button> 
             </CardActions>
             <Box marginBottom={2} />
         </Card>

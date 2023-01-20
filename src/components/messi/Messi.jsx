@@ -3,26 +3,32 @@ import '../messi/Messi.css';
 import Leo from '../../assets/messi-img.jpg';
 import { motion } from 'framer-motion';
 
+import { useTranslation, Trans } from 'react-i18next';
+import '../../locales/i18n';
+
 const Messi = () => {
+
+    const { t } = useTranslation();
+
   return (
     <div className='messi'>
 
         <div className='messi__container'>
 
             <div className='messi__title'>
-                <h1>Want to train like the pros?</h1>
+                <h1>{t("messititle")}</h1>
             </div>
 
             <div className='messi__content'>
                 <img src={Leo} alt="" />
 
                 <div className='messi__content-right'>
-                    <p>The best in the world use ESA, <br/>and so can you...</p>
+                    <p>{t("messirightp1")} <br/>{t("messirightp2")}</p>
                     <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
-                        <a href="/book">Book Now</a>
+                        <a href="/book">{t("messibook")}</a>
                     </motion.button>
                     <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="cta">
-                        <a href="/contact">Contact Us</a>
+                        <a href="/contact">{t("messicontact")}</a>
                     </motion.button>
                 </div>
             </div>

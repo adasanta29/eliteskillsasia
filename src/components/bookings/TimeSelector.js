@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import TimeElement from './TimeElement';
 
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
+
 const getInitialValuesForBookingsInTime = (allTimes) =>{
     var times = [];
     for (let i = 0; i < allTimes.length; i++) {
@@ -43,13 +46,15 @@ function TimeSelector({selectedDate,allTimes,selectedTime,setSelectedTime,setFor
         filterAllBookingsByTime();
     }, [allBookingsOfSelectedDay])
 
+    const { t } = useTranslation();
+
     
   return (
     <div>
         <div className="timeSelector">
             <div className="selectedDataArea">
-                <div>{selectedDate ? selectedDate : <>Please Select Date</>}</div>
-                <div>{selectedTime ? selectedTime.text : <>Please select the time</>}</div>
+                <div>{selectedDate ? selectedDate : <>{t("please_select_date")}</>}</div>
+                <div>{selectedTime ? selectedTime.text : <>{t("please_select_time")}</>}</div>
             </div>
           
           {selectedDate && 
@@ -67,7 +72,7 @@ function TimeSelector({selectedDate,allTimes,selectedTime,setSelectedTime,setFor
           </div>}
 
           {!selectedDate && <div className="selectDateFirst">
-            <h1>Please select a date</h1>
+            <h1>{t("please_select_date")}</h1>
           </div>}
         </div>
     </div>

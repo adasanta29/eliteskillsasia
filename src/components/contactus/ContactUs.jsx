@@ -4,29 +4,34 @@ import { Formik } from 'formik';
 import { Form } from 'formik';
 import { Field } from 'formik';
 
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
+
 const ContactUs = () => {
+  const { t } = useTranslation();
+  
   return (
     <div className='contact__us'>
 
       <div className='contact__grid'>
 
         <div className='contact__info'>
-          <h3>Feel free to get in touch by...</h3>
-          <p>Phone: +852 56624147</p>
-          <p>Email: info@esahongkong.com</p>
+          <h3>{t("contact_info_h3")}</h3>
+          <p>{t("contact_info_p1")}</p>
+          <p>{t("contact_info_p2")}</p>
         </div>
 
         <div className='contact__address'>
-          <h3>Or come and see us at...</h3>
-          <p>11th Floor, Prince Industrial Building, 5 Sun Yip Street, Chai Wan</p>
+          <h3>{t("contact_address_h3")}</h3>
+          <p>{t("contact_address_p")}</p>
         </div>
 
       </div>
 
       <div className='contact__hours'>
-        <h3>Hours</h3>
-        <p>Everyday 09:30am - 10:30pm</p>
-        <p className='notification'>ESA is open during most public holidays but<br/>please refer to our schedule for specific dates</p>
+        <h3>{t("contact_hours_h3")}</h3>
+        <p>{t("contact_hours_p1")}</p>
+        <p className='notification'>{t("contact_hours_notif1")}<br/>{t("contact_hours_notif2")}</p>
       </div>
       
     </div>
