@@ -27,6 +27,13 @@ export const TRANSLATIONS_ZH = {
     heroctaequipment: "哋嘅設備",
     heroctaevent: "生日或活動預訂查詢",
 
+    
+    herowelcome: "歡迎來到 ",
+    herofirst: "第一",
+    heromoderngym: " 家現代足球館在 ",
+    herohk: "香港。 ",
+    hero_rest: "ESA香港提供由頂級專業人士使用嘅創新訓練設備，幫助你把足球技術技能提升到一個新嘅水平。",
+
     /* ----- HOME ----- */
 
     homelefth1: "我哋引領一場足球訓練緊嘅革命",
@@ -36,9 +43,10 @@ export const TRANSLATIONS_ZH = {
 
     /* ----- HOME_QUOTES ----- */
 
-    /* issue with quotations */
+    quotesharryp: "我認為（ ICON ）對每個人來說都係一個好好嘅工具，由青年球員到職業球員。 那裏有一切：觸球、意識、身體姿勢、打開身體接收球、知道下一次傳球去哪裏...... 係幫助你喺任何級別提高足球水平嘅好方法。",
     quotesharryh3: "哈里·雷德克纳普，足總盃冠軍（主教練）",
     quoteslallanah3: "（球員）",
+    quoteslallanap: "ICON非常出色，特別是對於正在研究技術水平嘅後生球員而言。 如今，足球喺技術上變得越嚟越苛刻。 玩家可以真正練習他們的接球技術，這是提高的最佳資產之一...... 我肯定會推薦畀任何人。",
 
     /* ----- MESSI ----- */
 
@@ -53,6 +61,26 @@ export const TRANSLATIONS_ZH = {
     /* ----- MACHINES HEADER ----- */
 
     machineh1: "我哋嘅機器",
+
+    /* ----- MACHINES DATA ----- */
+
+    machine1description: "旨在複製比賽逼真的動作，玩家可以微調重要屬性，如近距離控制、傳球準確性、意識等等。 它也是受傷後康復嘅好工具，有助於受控、低衝擊力嘅訓練，作為完全接觸嘅墊腳石。",
+    machine1info: "技術重點：透過、轉彎、控制",
+
+    machine2description: "ICON快腳專為適應狹小空間而設計，注重強度，培養球員在近距離控制、反應時間和身體操作方面的技能。",
+    machine2info: "技術重點：車削、控制",
+
+    machine3description: "Q採用與全尺寸型號相同嘅原理，並使用所有相同嘅技術，係ICON嘅90度版本，旨在提高傳球精度同控制力，同時聚焦喺一個方向上。",
+    machine3info: "技術重點：傳球、控制",
+
+    machine4description: "精確牆可幫助玩家發展他們的攻擊屬性，例如射門準確性、首次觸球和團隊合作。 單獨或團隊合作，玩家可以訪問一系列旨在複製真實比賽情況壓力的訓練。 精確牆非常適合練習定位波，甚至可以模擬專業守門員嘅俯衝。",
+    machine4info: "技術重點：傳球、射門、控制",
+
+    machine5description: "無線面板提供與ICON系列相同嘅設計，但提供可定製性嘅好處，允許修改和隨機化面板之間嘅距離。  個人將能夠喺開放空間中進行運球，改變方向同意識，同時應用喺ICON機器更封閉嘅環境中開發嘅技術。",
+    machine5info: "技術重點：傳球、盤帶、控制",
+
+    machine6description: "大門模擬咗更逼真嘅運球同無波運動。  在腰部高度安裝了一個斷束器，球員必須在有球或無球的情況下通過，以滿足目標。",
+    machine6info: "技術重點：運球、轉身",
 
     /* ---------------------------------------------------------------------------- */
 
@@ -210,4 +238,56 @@ export const TRANSLATIONS_ZH = {
     agree_terms_label: "同意我哋嘅條款同條件",
 
     existing_user_button: "現有用戶？",
+
+    /* ---------------------------------------------------------------------------- */
+
+    /* ---------------------- COSTS ------------------------ */
+
+    /* ----- COSTS ROUTE ----- */
+
+    costsh1: "類",
+
+    /* ----- COSTS - PRIVATE ----- */
+
+    class_private_h3: "每小時私人教練",
+    class_inclusive: "包括歐空局數據中心",
+    class_private_one_type: "單節",
+    class_private_two_type: "5節課包",
+    class_private_note: "2個半私人學分可轉換為1個私人課程積分",
+
+    /* ----- COSTS - SEMI-PRIVATE ----- */
+
+    class_semiprivate_h3: "每1.5小时半私人教練",
+    class_semiprivate_two_type: "10節課包",
+    class_semiprivate_note1: "每節最多8個",
+    class_semiprivate_note2: "教練與球員嘅比例最大為4：1",
+
+    /* ----- COSTS - FHIIT ----- */
+
+    class_fhiit_h3: "足球高強度間歇訓練",
+    class_fhiit_info: "每周周二晚上7：30至夜晚8：30",
+    class_fhiit_note: "欲了解更多信息：",
+
+    /* ----- COSTS - RENTAL ----- */
+
+    class_rental_h3: "中心租賃",
+    class_noninclusive: "唔包括教練同ESA數據中心",
+    class_rental_type: "小時預訂",
+    class_rental_note: "中鋒最多可容納12名球員",
+
+    /* ----- COSTS - SUPPLEMENTAL COACHING ----- */
+
+    class_sup_h3: "補充輔導",
+    class_sup_subheading: "私人場地預訂",
+    class_sup_type1: "長途汽車",
+    class_sup_type2: "助理教練",
+    class_sup_note: "建議6名以上球員使用助理教練",
+
+    /* ----- COSTS - BIRTHDAY/EVENT ----- */
+
+    class_event_h3: "生日/活動預訂",
+    class_event_contact: "請聯繫我哋並提供詳細信息",
+    class_event_variedbyrequest: "根據要求而變化",
+
+    cost_cta: "預訂會議",
 }

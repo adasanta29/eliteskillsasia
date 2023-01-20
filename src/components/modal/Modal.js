@@ -3,6 +3,8 @@ import '../modal/Modal.css';
 import {IoIosCloseCircleOutline} from 'react-icons/io';
 import { motion } from 'framer-motion';
 
+import { useTranslation } from 'react-i18next';
+import '../../locales/i18n';
 
 const Modal = ({data, close}) => {
     const {image, title, description, info} = data;
@@ -13,7 +15,10 @@ const Modal = ({data, close}) => {
 
     const modalInfoVariants = {open: {opacity: 1, transition: {staggeredChildren: 0.2}}, closed: {opacity: 0}};
 
-    const modalRowVariants = {open: {opacity: 1, x: 0}, closed: {opacity: 0, x: "10%"}}
+    const modalRowVariants = {open: {opacity: 1, x: 0}, closed: {opacity: 0, x: "10%"}};
+
+    const { t } = useTranslation();
+
 
   return (
     <motion.div className='modal' onClick={(e) => e.stopPropagation()} variants={modalVariants}>
@@ -29,7 +34,7 @@ const Modal = ({data, close}) => {
                 <span className='modal__technique'>{info}</span>
             </motion.div>
             <motion.button className='modal__row machine__btn' onClick={close} whileHover={{scale: 1.2}}>
-                Close
+                {t("teamclosebtn")}
             </motion.button>
         </motion.div>
     </motion.div>
