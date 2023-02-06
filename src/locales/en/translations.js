@@ -200,7 +200,7 @@ export const TRANSLATIONS_EN = {
 
     /* ----- BOOK ROUTE ----- */
 
-    book_cta: "See our Classes",
+    book_cta: "See What's Available",
 
     /* ----- TIME SELECTOR ----- */
 
