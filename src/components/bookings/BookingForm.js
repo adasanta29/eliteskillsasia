@@ -123,8 +123,6 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         >
                             <option value="private">{t("class_private")}</option>
                             <option value="semi-private">{t("class_semiprivate")}</option>
-                            <option value="centre-booking">{t("class_centre_booking")}</option>
-                            <option value="birthday">{t("class_birthday")}</option>
                         </Field>
 
                         <Box marginBottom={3} />
@@ -292,8 +290,7 @@ function BookingForm({selectedDate,selectedTime,setFormVisible,bookingAddedForTh
                         >
                             <option value="private">{t("class_private")}</option>
                             <option value="semi-private">{t("class_semiprivate")}</option>
-                            <option value="centre-booking">{t("class_centre_booking")}</option>
-                            <option value="birthday">{t("class_birthday")}</option>
+
                         </Field>
 
                         <Box marginBottom={3} />
