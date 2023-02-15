@@ -1,5 +1,5 @@
 export const NUMBER_OF_BOOKINGS_GREEN = 3;
-export const NUMBER_OF_BOOKINGS_ORANGE = 4;
+export const NUMBER_OF_BOOKINGS_ORANGE = 5;
 export const NUMBER_OF_BOOKINGS_RED = 7;
 
 /* CHANGE ORANGE TO YELLOW */ 
