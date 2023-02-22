@@ -1,6 +1,6 @@
+import app from '../src/components/bookings/firebaseConfig'
 const functions = require("firebase-functions");
 const admin = require ("firebase-admin");
-const { initializeApp } = require("firebase/app");
 
 exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
     .onCreate((snap, context) => {
@@ -18,4 +18,4 @@ exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
         return null;
     })
 
-initializeApp();
+app;
