@@ -1,4 +1,5 @@
 const functions = require("firebase-functions");
+const admin = require ("firebase-admin");
 
 exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
     .onCreate((snap, context) => {
