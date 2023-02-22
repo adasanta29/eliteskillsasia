@@ -11,7 +11,7 @@ exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
         const mail = admin.firestore().collection("mail");
 
         if (collection === "bookings") {
-            return mail.add({ text: "A new booking was made"});
+            return mail.add({id});
         }
 
         return null;
