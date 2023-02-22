@@ -1,4 +1,3 @@
-import app from '../src/components/bookings/firebaseConfig'
 const functions = require("firebase-functions");
 const admin = require ("firebase-admin");
 
@@ -18,4 +17,4 @@ exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
         return null;
     })
 
-app();
+admin.initializeApp();
