@@ -1,6 +1,6 @@
 const functions = require("firebase-functions");
 
-exports.mailTrigger = functions.firestore.document('/{collection}/{id}') 
+exports.mailTrigger = functions.firestore.document("/{collection}/{id}") 
     .onCreate((snap, context) => {
         console.log(snap.data());
 
@@ -9,8 +9,8 @@ exports.mailTrigger = functions.firestore.document('/{collection}/{id}')
 
         const mail = admin.firestore().collection("mail");
 
-        if (collection === 'bookings') {
-            return mail.add({ text: 'A new booking was made'});
+        if (collection === "bookings") {
+            return mail.add({ text: "A new booking was made"});
         }
 
         return null;
