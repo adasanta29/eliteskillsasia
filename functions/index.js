@@ -7,7 +7,7 @@ exports.mailTrigger = functions.firestore.document('/bookings/{id}')
         const bookings = context.params.bookings;
         const id = context.params.id;
 
-        const mail = admin.firestore().collection('mail');
+        const mail = admin.firestore().collection("mail");
 
         return mail.add({id})
     })
