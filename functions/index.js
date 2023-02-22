@@ -18,4 +18,4 @@ exports.mailTrigger = functions.firestore.document("/{collection}/{id}")
         return null;
     })
 
-app;
+app();
