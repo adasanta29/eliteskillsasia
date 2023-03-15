@@ -3,9 +3,6 @@ import { initReactI18next } from 'react-i18next';
 
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
-// don't want to use this?
-// have a look at the Quick start guide 
-// for passing in lng and translations on init
 
 import { TRANSLATIONS_ZH } from "./zh/translations";
 import { TRANSLATIONS_EN } from "./en/translations";
@@ -34,8 +31,5 @@ i18n
       }
     }
   });
-
-  i18n.changeLanguage("en");
-
 
 export default i18n;
