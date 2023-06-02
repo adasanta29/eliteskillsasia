@@ -10,10 +10,22 @@ import { useRef } from 'react';
 
 import { useTranslation } from 'react-i18next';
 import '../../locales/i18n';
+import i18next from 'i18next'
 
 const Navbar = () => {
 
     const { t } = useTranslation();
+
+    const languages = [
+        {
+            code: 'en',
+            name: 'EN'
+        },
+        {
+            code: 'zh',
+            name: '廣東話'
+        }
+    ]
     
     const linkStyle = {
         textDecoration: "none",
@@ -41,6 +53,13 @@ const Navbar = () => {
                 <li><a href="/contact">{t("navbar_contact")}</a></li>
                 <li><a href="/book">{t("navbar_book")}</a></li>
             </ul>
+
+            <div className='translation__button'>
+                {languages.map(({ code, name }) => (
+                    <p key={code} onClick={() => i18next.changeLanguage(code)}>{name}</p>
+                ))}
+            </div>
+
         </div>
 
         <div className='toggle__button' onClick={() => setIsMobile(!isMobile)}>

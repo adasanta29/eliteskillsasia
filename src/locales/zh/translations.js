@@ -2,199 +2,199 @@ export const TRANSLATIONS_ZH = {
 
     /* ----- NAVBAR ----- */
 
-    navbar_home: "主頁",
-    navbar_machines: "機器",
-    navbar_about: "大約",
+    navbar_home: "首頁",
+    navbar_machines: "器械",
+    navbar_about: "關於我們",
     navbar_data: "數據分析",
-    navbar_contact: "聯繫",
-    navbar_book: "圖書專場",
+    navbar_contact: "聯絡我們",
+    navbar_book: "預約",
 
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- FOOTER ----- */
 
-    footerh4: "ESA 香港",
+    footerh4: "ESA Hong Kong",
 
-    footer_copyright_info: "2022 香港精英技能競技場 | 保留所有權利 | 服務條款 | 私隱",
+    footer_copyright_info: "2022 Elite Skills Arena Hong Kong | All rights reserved | Terms of Service | Privacy",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- HERO ----- */
 
     heroboxh1: "現已正式開放",
-    heroctabook: "圖書專場",
-    heroctaequipment: "哋嘅設備",
-    heroctaevent: "生日或活動預訂查詢",
+    heroctabook: "預約",
+    heroctaequipment: "我們的器械",
+    heroctaevent: "場地預約",
 
     
-    herowelcome: "歡迎來到 ",
-    herofirst: "第一",
-    heromoderngym: " 家現代足球館在 ",
+    herowelcome: "第一家以科技融合 ",
+    herofirst: "足球訓練的",
+    heromoderngym: " 足球學校正式登陸 ",
     herohk: "香港。 ",
-    hero_rest: "ESA香港提供由頂級專業人士使用嘅創新訓練設備，幫助你把足球技術技能提升到一個新嘅水平。",
+    hero_rest: "ESA香港引入了由頂尖足球員都正在使用的創新訓練設備來幫助你把足球技術提升到一個新的層次。",
 
     /* ----- HOME ----- */
 
-    homelefth1: "我哋引領一場足球訓練緊嘅革命",
-    homeleftp1: "ESA嘅先進訓練設備受到好多足球領先俱樂部嘅使用同信任，圍繞刻意練習和密集重複嘅理念構建嘅，並結合專家反饋。",
-    homeleftp2: "我哋嘅使命係賦予球員權力，在技術發展、戰術意識和康復計劃方面取得有意義嘅成果。",
-    homecta: "瞭解更多信息",
+    homelefth1: "我們正在率領一場屬於足球訓練的革命",
+    homeleftp1: "ESA的先進訓練設備已獲得世界各地的職業球會使用以及信任，我們的訓練設備經過專家意見圍繞著刻意練習和不斷重複的理念構建而成。",
+    homeleftp2: "我們的使命是幫助球員透過先進的訓練設備在技術發展、戰術意識和傷後復健各方面均能取得有意義的成果。",
+    homecta: "瞭解更多",
 
     /* ----- HOME_QUOTES ----- */
 
-    quotesharryp: "我認為（ ICON ）對每個人來說都係一個好好嘅工具，由青年球員到職業球員。 那裏有一切：觸球、意識、身體姿勢、打開身體接收球、知道下一次傳球去哪裏...... 係幫助你喺任何級別提高足球水平嘅好方法。",
-    quotesharryh3: "哈里·雷德克纳普，足總盃冠軍（主教練）",
-    quoteslallanah3: "（球員）",
-    quoteslallanap: "ICON非常出色，特別是對於正在研究技術水平嘅後生球員而言。 如今，足球喺技術上變得越嚟越苛刻。 玩家可以真正練習他們的接球技術，這是提高的最佳資產之一...... 我肯定會推薦畀任何人。",
+    quotesharryp: "我認為（ ICON ）對於不論是青年球員或是專業球員都是一個十分好的訓練工具。 當中包含足球所需的全部技能：控球、意識、身體姿勢、身體作出反應應接傳球、傳球意識以及尋找更好的傳球選擇...... 這是一個幫助提高你足球水平的好方法",
+    quotesharryh3: "哈里·列納，足總盃冠軍（主教練）",
+    quoteslallanah3: "亞當·拉蘭拿，白禮頓（球員）",
+    quoteslallanap: "ICON非常出色，特別是對於那些正在努力加強自己技術的年輕球員，因為現代足球對於技術方面的要求愈來愈高。而接球技術更是非常值得練習的其中一項技巧，我絕對會向大家推薦使用它來令你的技術更上一層樓。",
 
     /* ----- MESSI ----- */
 
     messititle: "想像職業選手一樣訓練嗎？",
-    messirightp1: "世間上最好嘅使用ESA，",
-    messirightp2: "你都可以...",
-    messibook: "立即預訂",
-    messicontact: "聯繫我哋",
+    messirightp1: "世間上最好的球員也在使用ESA的產品，",
+    messirightp2: "你也可以...",
+    messibook: "預約",
+    messicontact: "聯絡我們",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- MACHINES HEADER ----- */
 
-    machineh1: "我哋嘅機器",
+    machineh1: "我們的器材",
 
     /* ----- MACHINES DATA ----- */
 
-    machine1description: "旨在複製比賽逼真的動作，玩家可以微調重要屬性，如近距離控制、傳球準確性、意識等等。 它也是受傷後康復嘅好工具，有助於受控、低衝擊力嘅訓練，作為完全接觸嘅墊腳石。",
-    machine1info: "技術重點：透過、轉彎、控制",
+    machine1description: "它的設計主要是複製了貼近比賽真實性的動作，球員可以對於在球場上的重要技術作出針對性的訓練，如近距離控球、傳球準繩度、意識等等。 它也十分適合幫助球員用來傷後復健，其低衝擊力的訓練可以為球員重回高強度訓練前做好準備。",
+    machine1info: "技術重點：傳球、轉向、控球",
 
-    machine2description: "ICON快腳專為適應狹小空間而設計，注重強度，培養球員在近距離控制、反應時間和身體操作方面的技能。",
-    machine2info: "技術重點：車削、控制",
+    machine2description: "ICON Fast Feet模擬了在一個狹小空間下作出選擇的情景而設計，它主要注重於訓練球員的近距離控制、反應和身體控制方面的技能。",
+    machine2info: "技術重點：轉向、控球",
 
-    machine3description: "Q採用與全尺寸型號相同嘅原理，並使用所有相同嘅技術，係ICON嘅90度版本，旨在提高傳球精度同控制力，同時聚焦喺一個方向上。",
-    machine3info: "技術重點：傳球、控制",
+    machine3description: "ICON Q採用與ICON相同的原理及技術，這是ICON的90度版本，目的是提升單一方向的控球能力及傳球準繩度。",
+    machine3info: "技術重點：傳球、控球",
 
-    machine4description: "精確牆可幫助玩家發展他們的攻擊屬性，例如射門準確性、首次觸球和團隊合作。 單獨或團隊合作，玩家可以訪問一系列旨在複製真實比賽情況壓力的訓練。 精確牆非常適合練習定位波，甚至可以模擬專業守門員嘅俯衝。",
-    machine4info: "技術重點：傳球、射門、控制",
+    machine4description: "Precision Wall主要是幫助球員發展其進攻能力，例如射門準繩度、第一時間控球和團隊合作。 不論是個人或整隊球隊的練習，球員都可以進行一系列貼近真實比賽情況下的訓練。 Precision Wall亦非常適合練習定點球。",
+    machine4info: "技術重點：傳球、射門、控球",
 
-    machine5description: "無線面板提供與ICON系列相同嘅設計，但提供可定製性嘅好處，允許修改和隨機化面板之間嘅距離。  個人將能夠喺開放空間中進行運球，改變方向同意識，同時應用喺ICON機器更封閉嘅環境中開發嘅技術。",
-    machine5info: "技術重點：傳球、盤帶、控制",
+    machine5description: "Wireless Panels提供與ICON系列相同的設計，其最大的好處是可以因應不同的練習需求而修改和隨機化面板之間的距離和位置。  個人訓練專注於在開放空間中進行運球，轉向及球場意識，同時能應用於ICON裡學習到的技能。",
+    machine5info: "技術重點：傳球、盤球、控制",
 
-    machine6description: "大門模擬咗更逼真嘅運球同無波運動。  在腰部高度安裝了一個斷束器，球員必須在有球或無球的情況下通過，以滿足目標。",
-    machine6info: "技術重點：運球、轉身",
+    machine6description: "Wireless Gate Module在腰部高度安裝了一個感應裝置，球員必須在有球或無球的情況下通過，從而模擬真實比賽時運球同無球跑動。",
+    machine6info: "技術重點：運球、轉向",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- ABOUT HEADER ----- */ 
 
-    abouth1: "關於歐空局",
-    aboutlefth2: "精英技能競技場",
-    aboutleftp1: "在ESA，我哋提供一系列創新嘅訓練場，旨在提高運動表現。 我哋嘅主要重點係足球，我哋與由主要職業俱樂部同學院到訓練中心、設施同大公司嘅個個合作。",
-    aboutleftp2: "從本質上講，使用我哋嘅競技場，球員可以喺更短嘅時間內獲得更多嘅觸球機會，從而加速佢哋喺核心屬性方面嘅發展。 迄今為止，我哋嘅產品已喺全球6大洲使用超過850，000次。 所有ESA產品均採用最先進嘅LED光同振動技術，並基於重複嘅口號。",
+    abouth1: "關於ESA",
+    aboutlefth2: "Elite Skills Arena",
+    aboutleftp1: "在ESA，我們提供一系列旨在提高運動表現的先進訓練設備來為球員帶來創新的訓練。我們亦與不同組織合作，包括專業的球會和足球學校、訓練中心及大型企業。",
+    aboutleftp2: "基本上，我們的場地及技術能讓球員在短時間內獲得更多碰球的機會，從而加快他們的足球核心技能發展。 直到現時為止，我們的器材已在全球六大洲被使用超過850，000次。 所有ESA的訓練設備均採用最先進的LED光及振動技術，這些產品均基於不斷重複練習的原理構建。",
 
     /* ----- TEAM ----- */ 
 
-    coachesh1: "認識團隊",
+    coachesh1: "認識我們的團隊",
 
-    modalsamh2: "山姆·特雷福德-總經理",
-    modalsamp: "Sam出生喺香港，一生都喺香港進出。 佢自細就對足球充滿熱情，喺香港同英國踢波。 正是這種熱情促使佢參與了英國精英技能競技場（ ESA ）。 他於2017年回到香港，帶嚟咗ESA品牌同隨之而嚟嘅產品。 佢幫助把品牌擴展到東亞嘅中國、泰國和日本等地區。 喺確定咗參與者使用ESA產品嘅培訓同樂趣嘅質素之後，佢決定需要一個永久嘅地點，因此ESA香港培訓中心誕生了！",
+    modalsamh2: "Sam Trayford - 總經理",
+    modalsamp: "Sam出生於香港，一生都在這個城市內外奔波。 他年輕時，不論在香港或英國都十分熱衷於踢足球。 正因為對於足球的熱愛，他亦與Elite Skills Arena建立了聯繫。 他於2017年，帶著ESA品牌及有關的器材回到香港並開始將品牌擴展到東南亞國家，當中包括中國、泰國和日本等地區。當Sam看見參與者使用ESA產品所獲得的訓練質量和樂趣後，他決定需要一個實體地點讓更多人可以隨時隨地都能使用到ESA的訓練設備，因此ESA香港誕生了！",
 
-    modalchrish2: "克里斯·德·莱格莱西亚-技術總監",
-    modalchrisp: "Chris自2015年以來一直喺香港執教，與各個年齡段嘅球員一起工作，由2岁嘅仔學習基礎知識到香港職業聯賽嘅成年人。 喺香港封鎖期間，佢畀引入私人教練部門，發現呢個特定領域無法滿足球員嘅需求，並希望提供更加身臨其境嘅體驗。 Chris曾喺職業球隊Kitchee （香港）同半職業球隊文图拉县（美國加利福尼亞州）有比賽經驗。 他發現自己想繼續參與足球運動，並喺2011-2012年作為志願者執教约翰霍普金斯大學俱樂部足球隊。 隨著2004年完成FA 1級考試，佢知道自己需要繼續接受足球教育，因此佢喺2016年至2017年註冊咗IFA （北愛爾蘭足球協會）歐足聯B課程，截至2021年6月，佢目前喺FAW （威尔士足球協會）任職，因為佢希望繼續透過歐足聯教練級別。",
+    modalchrish2: "Chris de Laiglesia - 技術總監",
+    modalchrisp: "Chris 於2015年至今一直於香港執教，其教學對象覆蓋了由2歲正在學習基礎足球知識的幼兒至競逐於業餘聯賽的成人球隊。於香港疫情期間，他開始了私人一對一的訓練，並發現這個特定領域無法完全滿足球員的所需，他更希望在訓練中能夠提供更加身臨其境的體驗給球員。Chris曾經效力於職業球隊傑志 （香港）及半職業球隊Ventura County（美國加利福尼亞州）。並於2011-2012年義務執教約翰霍普金斯大學俱樂部足球隊，他發現自己與足球的關係密不可分。隨著2004年完成FA 1級考試後，他知道自己需要再進修更多足球的知識。因此，他於2016年至2017年在IFA（北愛爾蘭足球協會）開始考取UEFA B教練課程。但由於疫情關係，直至2021年6月再於FAW （威爾士足球協會）完成了課程，他未來亦會繼續考取UEFA更高級別的教練資格。",
 
-    modalsantih2: "冯淑贤-營運主管",
-    modalsantip: "Santiago喺香港出生同大個，中意與來自不同文化背景嘅人建立關係開。 冇乜嘢過睇到周圍嘅人成功更能比桑蒂帶來快樂嘅了，就係點解佢喺後生嗰時就對足球產生了深深的熱愛。 作為一個天生嘅團隊合作者，桑蒂唔怕為咗球隊嘅改善而做污糟嘅工作。 足球為桑蒂打開咗好多大門，佢繼續深深扎根於當地嘅體育界。 憑藉佢喺體育商業管理方面嘅背景，以及對團隊精神建設嘅熱情，Santi已準備好創造香港最好嘅足球體驗！",
+    modalsantih2: "Santiago Fung-營運主管",
+    modalsantip: "Santiago於香港土生土長，喜歡與來自不同文化背景的人交流。 他十分喜歡看到身邊的人成功，而這正是他熱衷於青少年足球發展的原因。作為一位團隊合作者，他並不介意為團隊處理繁複瑣碎的工作。 足球為Santi帶來很多不同的機會，他亦與本地社區運動團體有密切的聯繫。 憑藉他的運動商業管理學歷的背景，再加上他對於團隊精神的重視及熱情，他已準備好為大家創造香港最好的足球體驗！",
 
-    modalnikh2: "尼基尔·纳尔瓦尼-教練",
-    modalnikp: "Nikhil係一名合格嘅FA許可足球教練，目前擔任自由職業教練，專注於1對1培訓，以幫助個人發揮最大潛力。 Nik教練有執教大約8年，還與ESF（英文學校基金會），RMFC（皇家馬德里基金會診所），APSS（亞太足球學校）和BTS（巴西頂級技能）等各種不同的公司合作並管理過。 Nik喺2/3岁時開始熱愛呢項運動，並喺2016年從事全職教練，當時佢受傷並撕裂咗佢嘅前交叉韌帶和內側副韌帶。 Nik教練曾喺2015年代表香港國家隊U21參加香港最高水平嘅比賽，同時為U18太陽飛馬隊同太陽飛馬預備隊效力。 Nik教練喺足球領域積累咗豐富嘅經驗，佢接受過高水平嘅教練，並希望為自己嘅球員提供相同水平嘅教練。",
+    modalnikh2: "Nikhil Narwani-教練",
+    modalnikp: "Nikhil足球總會認可的足球教練，目前主要擔任教練工作，專注於1對1培訓以幫助球員發揮個人最大潛力。 他執教大約8年，當中包括ESF（英基），RMFC（皇家馬德里基金會訓練營），APSS（亞太足球學校）和BTS（Brasil Top Skills Soccer School）等。 Nik於年幼時已十分熱愛足球，Ni他曾代表香港隊U21於2015年出賽，同年亦為太陽飛馬U18及太陽飛馬預備組效力。於2016年因前十字韌帶及內側副韌帶受傷的關係，同年開始成為全職教練。Nik於足球領域上積累豐富的經驗，亦曾接受過高水平的訓練，他已準備為球員帶來相同的體驗。",
 
-    modaljackh2: "岑杰克-教練",
-    modaljackp: "积克係一名香港足協D牌教練，主要關注青年發展。 過去7年，他曾與多個機構合作，包括港島區隊、香港阿仙奴和港島學校，以及亞太足球學校和九龍板球俱樂部青年足球部。 佢曾喺2000年代初作為青年球員為華南AA隊效力，並希望嘗試由佢嘅各種經歷中汲取知識，為所有人提供最好嘅足球教育。 在ESA HK，Jack仲可以指導廣東話，以便更好嘅咁與一些參加中心嘅本地球員溝通。",
+    modaljackh2: "Jack Shum-教練",
+    modaljackp: "他擁有香港足總D牌教練資格，及十分關注青少年足球發展。 過去7年，他曾在多個不同機構執教，包括離島區區隊、香港阿仙奴足球學校和港島中學，以及亞太足球學校和九龍木球會青少年足球隊。 他亦曾以青年球員的身份為南華足球隊青年軍效力，現希望藉著他從各種經歷所獲得的知識，為所有人提供最好的足球訓練。 在ESA中，Jack亦可以用廣東話與學員溝通，以便提供更好的交流及訓練。",
 
-    modalkafih2: "卡菲·哈伦-教練",
-    modalkafip: "卡菲係一名一汽一級教練，專門從事單對單訓練。 喺舊時嘅3年度，佢曾與包括Young Talent同Island School在內的各種團體合作，目前喺Yau Yee聯賽甲級聯賽嘅KCC龍隊打波。 佢曾效力於富衛（ 2015-2018 ）同愉景灣足球俱樂部（ 2019-2020 ），喺嗰度了3次法律聯賽冠軍佢贏得，2次獲得盃賽冠軍，並喺5年內兩次加冕最佳射手。 Kafi教練自願與ESAHK同香港嘅難民社區合作，為可能無法這樣做的兒童提供優質設施和指導。 佢係一位希望推動球員變得偉大嘅教練，不僅喺足球方面，而且喺生活中，向所有球員灌輸永不放棄嘅態度！",
+    modalkafih2: "Kafi Harun-教練",
+    modalkafip: "Kafi 擁有威爾士足球協會一級教練資格，他亦專注於1對1足球教學。過去三年，他曾與不同團體或學校合作，當中包括Young Talent及港島中學。他曾效力於Legal League球隊FWD（ 2015-2018 ）及愉景灣足球俱樂部（ 2019-2020 ），並奪得3次聯賽冠軍，2次盃賽冠軍，並在五年內兩度奪得最佳射手獎項。目前效力於友誼聯賽第一組別的九龍木球會Dragons。 Kafi亦以義務性質與ESAHK及香港難民社區合作，為有困難的兒童提供良好的設施和指導。 他希望成為一位能夠讓球員不但於足球領域上變得更好，甚至是人生上變得更好的教練，並向球員灌輸永不放棄嘅態度！",
 
     teamclosebtn: "關閉",
 
-    firstaid: "急救認證",
+    firstaid: "急救證書",
 
-    sam_h3: "山姆·特雷福德",
+    sam_h3: "Sam Trayford",
     sam_p: "總經理",
 
-    chris_h3: "克里斯·德·莱格莱西亚",
+    chris_h3: "Chris de Laiglesia",
     chris_p: "技術總監",
-    chris_certifications: "8 + 年香港教練經驗",
+    chris_certifications: "8年以上執教經驗",
 
-    santi_h3: "冯淑贤",
+    santi_h3: "Santiago Fung",
     santi_p: "營運主管",
 
-    nik_h3: "尼基尔·纳尔瓦尼",
+    nik_h3: "Nikhil Narwani",
     nik_p: "教練",
-    nik_certifications_one: "6+年執教經驗",
-    nik_certifications_two: "曾效力於U9-U16球隊",
+    nik_certifications_one: "6年以上執教經驗",
+    nik_certifications_two: "主要執教U9-U16球隊",
 
-    jack_h3: "岑杰克",
+    jack_h3: "Jack Shum",
     jack_p: "教練",
-    jack_certifications_one: "7+年執教經驗",
-    jack_certifications_two: "曾效力於U7-U13球隊",
+    jack_certifications_one: "7年以上執教經驗",
+    jack_certifications_two: "主要執教U7-U13球隊",
 
-    kafi_h3: "卡菲·哈伦",
+    kafi_h3: "Kafi Harun",
     kafi_p: "教練",
-    kafi_certifications_one: "3+年執教經驗",
-    kafi_certifications_two: "曾效力於U4-U9球隊",
+    kafi_certifications_one: "3年以上執教經驗",
+    kafi_certifications_two: "主要執教U4-U9球隊",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- DATA ROUTE ----- */ 
 
     datah1: "數據分析",
-    data_video_h3: "觀看我哋嘅教程視頻，獲取有關安裝數據中心嘅幫助",
+    data_video_h3: "觀看我們的教學視頻以了解有關安裝DataHub的教學",
 
     /* ----- DATA HUB CONTENT ----- */
 
-    data_one_h2: "創建您的個人資料並跟蹤績效",
-    data_one_p: "所有玩家都可以創建自己嘅個人資料，然後佢哋可以透過官方ESA數據中心應用程序或標準瀏覽器輕鬆訪問。 每個配置文件都連結到其ESA電腦登錄，以便任何數據都自動上傳並存儲喺ESA數據中心中。",
+    data_one_h2: "建立您的個人檔案並追蹤表現",
+    data_one_p: "所有球員均可建立自己的個人檔案，然後可以隨時隨地透過官方ESA Data Hub應用程式或瀏覽器開啟。 每個檔案都連結至ESA的訓練設備，以便數據自動上傳並存儲於ESA Data Hub。",
 
-    data_two_h2: "隨時間推移嘅績效分析",
-    data_two_p: "從他們的課程中獲得的分數可以按日期/ESA遊戲類型/ESA機器進行比較，以深入分析他們在中心期間的發展。 然後，即時反饋可用于肯定優勢/劣勢領域以及可能正在由傷病中恢復嘅球員嘅狀況。",
+    data_two_h2: "全天候運動表現分析",
+    data_two_p: "從課堂中獲得的分數可以按日期/訓練項目/訓練設備進行比較，以深入分析他們在中心訓練期間的發展。 即時反饋可用於分析球員的優劣領域或受傷球員的復健狀況。",
 
-    data_three_h2: "本地同全球競爭排行榜",
-    data_three_p: "與朋友、隊友、中心的其他玩家或來自世界各地不同學院的玩家進行比較！ 使用各種過濾選項，玩家可以按年齡組/國籍/ESA遊戲類型/ESA機器類型（僅舉幾例）進行比較，看看他們的排名如何！",
+    data_three_h2: "本地及全球排行榜",
+    data_three_p: "與朋友、隊友、中心的其他球員或來自世界各地不同學院的球員進行比較！ 玩家可以按年齡/國籍/訓練項目/訓練設備等等進行比較，看看他們的排名如何！",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- F-HIIT Content ----- */ 
 
     hiitcontent_one_h3: "足球高強度間歇訓練",
-    hiitcontent_one_p: "增加耐力、協調性、力量和耐力",
+    hiitcontent_one_p: "增強肌耐力、協調性、力量和耐力",
 
-    hiitcontent_two_h3: "8-10个不同嘅站點！",
-    hiitcontent_two_p: "50% 體重 / 50% ESA 機器培訓",
+    hiitcontent_two_h3: "8-10个不同的訓練！",
+    hiitcontent_two_p: "50% 自身重量訓練 / 50% ESA 器材訓練",
 
-    hiitcontent_three_h3: "星期二",
-    hiitcontent_three_p: "立即註冊試用版！",
+    hiitcontent_three_h3: "星期二 晚上7:30至8:30",
+    hiitcontent_three_p: "立即註冊試堂！",
 
-    hiitcontent_cta: "圖書專場",
+    hiitcontent_cta: "預約",
 
     /* ---------------------------------------------------------------------------- */
 
     /* ----- CONTACT ROUTE ----- */
     
-    contacth1: "聯繫我哋",
-    locationh1: "我哋嘅位置",
+    contacth1: "聯絡我們",
+    locationh1: "我們的位置",
 
     /* ----- CONTACT CONTENT ----- */
 
-    contact_info_h3: "請隨時通過以下方式與我們聯繫...",
+    contact_info_h3: "可以透過以下方式聯絡我們...",
     contact_info_p1: "電話：+852 56624147",
-    contact_info_p2: "電子郵件：info@esahongkong.com",
+    contact_info_p2: "電郵：info@esahongkong.com",
 
-    contact_address_h3: "或來見我們...",
-    contact_address_p: "柴灣新業街5號太子工業大廈11樓",
+    contact_address_h3: "或者直接到訪...",
+    contact_address_p: "柴灣新業街5號王子工業大廈11樓",
 
-    contact_hours_h3: "小時",
+    contact_hours_h3: "開放時間",
     contact_hours_p1: "每日 09:30am - 10:30pm",
-    contact_hours_notif1: "歐空局喺大多數公共假期開放，但",
-    contact_hours_notif2: "具體日期請參考我哋嘅時間表",
+    contact_hours_notif1: "ESA於大部分公眾假期開放，但",
+    contact_hours_notif2: "具體日期請參考我們的時間表",
 
     /* ---------------------------------------------------------------------------- */
 
@@ -202,7 +202,7 @@ export const TRANSLATIONS_ZH = {
 
     /* ----- BOOK ROUTE ----- */
 
-    book_cta: "查看我哋嘅課程",
+    book_cta: "查看我們的課程",
 
     /* ----- TIME SELECTOR ----- */
 
@@ -214,10 +214,10 @@ export const TRANSLATIONS_ZH = {
     please_enter_details_title: "請輸入預訂詳情",
     date_label: "日期",
     time_label: "時間",
-    name_label: "名字",
-    email_label: "電子郵件",
+    name_label: "姓名",
+    email_label: "電郵",
 
-    select_class: "請選擇一個班級",
+    select_class: "請選擇課堂",
     class_private: "私人",
     class_semiprivate: "半私人",
     class_centre_booking: "中心預訂",
@@ -234,8 +234,8 @@ export const TRANSLATIONS_ZH = {
     parent_email_label: "家長/監護人電子郵件",
     phone_label: "電話",
 
-    see_terms: "查看我哋嘅條款同條件",
-    agree_terms_label: "同意我哋嘅條款同條件",
+    see_terms: "查看我們的條款及條件細則",
+    agree_terms_label: "同意我們的條款及條件細則",
 
     existing_user_button: "現有用戶？",
 
@@ -245,49 +245,49 @@ export const TRANSLATIONS_ZH = {
 
     /* ----- COSTS ROUTE ----- */
 
-    costsh1: "類",
+    costsh1: "課堂",
 
     /* ----- COSTS - PRIVATE ----- */
 
-    class_private_h3: "每小時私人教練",
-    class_inclusive: "包括歐空局數據中心",
-    class_private_one_type: "單節",
-    class_private_two_type: "5節課包",
-    class_private_note: "2個半私人學分可轉換為1個私人課程積分",
+    class_private_h3: "一小時一對一課堂",
+    class_inclusive: "包括ESA Data Hub",
+    class_private_one_type: "一節",
+    class_private_two_type: "五節課堂",
+    class_private_note: "兩個半私人課堂可轉換為一個一對一課堂",
 
     /* ----- COSTS - SEMI-PRIVATE ----- */
 
-    class_semiprivate_h3: "每1.5小时半私人教練",
-    class_semiprivate_two_type: "10節課包",
-    class_semiprivate_note1: "每節最多8個",
-    class_semiprivate_note2: "教練與球員嘅比例最大為4：1",
+    class_semiprivate_h3: "半私人課堂(1.5小時)",
+    class_semiprivate_two_type: "十節課堂",
+    class_semiprivate_note1: "每節最多8人",
+    class_semiprivate_note2: "教練與球員的比例最大為4：1",
 
     /* ----- COSTS - FHIIT ----- */
 
     class_fhiit_h3: "足球高強度間歇訓練",
-    class_fhiit_info: "每周周二晚上7：30至夜晚8：30",
-    class_fhiit_note: "欲了解更多信息：",
+    class_fhiit_info: "每周周二晚上7：30至8：30",
+    class_fhiit_note: "如欲了解更多資訊：",
 
     /* ----- COSTS - RENTAL ----- */
 
-    class_rental_h3: "中心租賃",
-    class_noninclusive: "唔包括教練同ESA數據中心",
+    class_rental_h3: "租場",
+    class_noninclusive: "不包括教練以及ESA Data Hub",
     class_rental_type: "小時預訂",
-    class_rental_note: "中鋒最多可容納12名球員",
+    class_rental_note: "最多可容納12名球員",
 
     /* ----- COSTS - SUPPLEMENTAL COACHING ----- */
 
-    class_sup_h3: "補充輔導",
-    class_sup_subheading: "私人場地預訂",
-    class_sup_type1: "長途汽車",
+    class_sup_h3: "教練服務",
+    class_sup_subheading: "供私人場地預訂",
+    class_sup_type1: "主教練",
     class_sup_type2: "助理教練",
-    class_sup_note: "建議6名以上球員使用助理教練",
+    class_sup_note: "6名以上球員建議加配助理教練",
 
     /* ----- COSTS - BIRTHDAY/EVENT ----- */
 
     class_event_h3: "生日/活動預訂",
-    class_event_contact: "請聯繫我哋並提供詳細信息",
-    class_event_variedbyrequest: "根據要求而變化",
+    class_event_contact: "請聯絡我們並提供詳細信息",
+    class_event_variedbyrequest: "根據要求而變動",
 
-    cost_cta: "預訂會議",
+    cost_cta: "立即預約",
 }

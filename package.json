@@ -9,7 +9,6 @@
         "@fullcalendar/daygrid": "^6.0.2",
         "@fullcalendar/interaction": "^6.0.2",
         "@fullcalendar/react": "^6.0.2",
-        "@mobiscroll/react": "file:./src/lib/mobiscroll-package/mobiscroll-react-5.20.1.tgz",
         "@mui/icons-material": "^5.11.0",
         "@mui/material": "^5.11.2",
         "@react-google-maps/api": "^2.17.1",
