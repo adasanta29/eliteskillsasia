@@ -55,9 +55,14 @@
         font-size: 0.8rem;
         padding: 0.8rem;
     }
+
+    .logo img {
+        width: 250px;
+        height: 130px;
+    }
 }
 
-/* MEDIA QUERIES - MOBILE DEVICES */
+/* MEDIA QUERIES - MOBILE DEVICES AND TABLETS */
 
 @media only screen and (min-width: 320px) and (max-width: 980px) {
     .navbar__container ul {

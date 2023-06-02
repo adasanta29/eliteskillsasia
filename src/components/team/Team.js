@@ -65,6 +65,7 @@ const Team = () => {
   return (
     <div className='team__container'>
       <div className='team__member-group'>
+        
         <div className='team__members'>
           <motion.button 
             className='save-button' 
