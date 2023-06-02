@@ -8,13 +8,13 @@ import { AnimatePresence } from 'framer-motion';
 const Card = ({ data }) => {
   const [open, setOpen] = useState(false);
 
-const openModal = () => {
-  setOpen(true);
-};
+  const openModal = () => {
+    setOpen(true);
+  };
 
-const closeModal = () => {
-  setOpen(false);
-};
+  const closeModal = () => {
+    setOpen(false);
+  };
 
   return (
     <div className='card'>
